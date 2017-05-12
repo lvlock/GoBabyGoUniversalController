@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+  	<button ion-button menuToggle>
+  		<ion-icon name="menu"></ion-icon>
+  	</button>
+    <ion-title>Connect to Car</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h4>Scan for the Bluetooth Module</h4>
+    <button ion-button icon-left block (click)="ble_scan()">
+      <ion-icon name="bluetooth"></ion-icon>
+      Scan
+    </button>
+
+    <!-- *ngIf="devices.length" -->
+    <ion-card *ngIf="devices.length"  >
+
+      <ion-item>
+        <ion-list>
+          <ion-list-header>
+            Discovered Devices
+          </ion-list-header>
+
+          <!-- *ngIf="device.name != ''" -->
+          <ion-item *ngFor="let device of devices" >
+            {{device.name}}
+            <button ion-button item-end>
+              Connect
+            </button>
+          </ion-item>
+
+        </ion-list>
+      </ion-item>
+    </ion-card>
+
+    <button ion-button>refresh</button>
+
+    <p id="state">state</p>
+    <p id="action">action</p>
+    <p id="data">data</p>
+    <p id="test">test</p>
+</ion-content>
