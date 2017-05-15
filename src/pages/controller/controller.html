@@ -16,9 +16,9 @@
 	</ion-item>
 
 	<ion-item>
-		<ion-range [(ngModel)] = "speed" step="25" snaps="true" (ionChange) ="speedChange()">
-			<ion-icon range-left small name="0%"></ion-icon>
-			<ion-icon range-right small name="100%"></ion-icon>
+		<ion-range [(ngModel)] = "speed" step="25" snaps="true" (ionChange) ="setSpeed()">
+			<ion-label range-left>%0</ion-label>
+			<ion-label range-right>%100</ion-label>
 		</ion-range>
 	</ion-item>
 
@@ -30,7 +30,7 @@
 	</ion-item>
 
 	<ion-item>
-		<button id = "stopB" style = "background:red" ion-button block (click) = "eStop()">STOP</button>
+		<button ion-button id="stop" color="danger" block (click) = "emergencyStop()">EMERGENCY STOP</button>
 	</ion-item>
 
 	<ion-item>
@@ -41,19 +41,19 @@
     
     <ion-grid>
 	    <ion-row> 
-	    	<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part8.png');background-size:100% 100%;" ></ion-col>
-			<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part1.png');background-size:100% 100%;" ></ion-col>
-			<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part2.png');background-size:100% 100%;" ></ion-col>
+	    	<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part8.png');background-size:100% 100%;" (touchstart)="forwardLeft()" (touchend)="brake()"></ion-col>
+			<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part1.png');background-size:100% 100%;" (touchstart)="forward()" (touchend)="brake()"></ion-col>
+			<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part2.png');background-size:100% 100%;" (touchstart)="forwardRight()" (touchend)="brake()"></ion-col>
 		</ion-row>
 		<ion-row> 
-	    	<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part7.png');background-size:100% 100%;" ></ion-col>
-			<ion-col style = "height:80px;"></ion-col>
-			<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part3.png');background-size:100% 100%;" ></ion-col>
+	    	<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part7.png');background-size:100% 100%;" (touchstart)="left()" (touchend)="brake()"></ion-col>
+			<ion-col ion-button clear style = "height:80px;"></ion-col>
+			<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part3.png');background-size:100% 100%;" (touchstart)="right()" (touchend)="brake()"></ion-col>
 		</ion-row>
 		<ion-row> 
-	    	<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part6.png');background-size:100% 100%;" ></ion-col>
-			<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part5.png');background-size:100% 100%;" ></ion-col>
-			<ion-col style = "height:80px;background-image:url('assets/img/Buttons_Part4.png');background-size:100% 100%;" ></ion-col>
+	    	<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part6.png');background-size:100% 100%;" (touchstart)="backwardLeft()" (touchend)="brake()"></ion-col>
+			<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part5.png');background-size:100% 100%;" (touchstart)="backward()" (touchend)="brake()"></ion-col>
+			<ion-col ion-button clear style = "height:80px;background-image:url('assets/img/Buttons_Part4.png');background-size:100% 100%;" (touchstart)="backwardRight()" (touchend)="brake()"></ion-col>
 		</ion-row>
 	</ion-grid>
 

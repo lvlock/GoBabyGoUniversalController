@@ -9,33 +9,45 @@
 
 <ion-content padding>
     <h4>Scan for the Bluetooth Module</h4>
-    <button ion-button icon-left block (click)="ble_scan()">
+    <p>Version 29</p>
+    <button ion-button icon-left block large (click)="ble_scan()">
       <ion-icon name="bluetooth"></ion-icon>
       Scan
     </button>
 
-    <!-- *ngIf="devices.length" -->
-    <ion-card *ngIf="devices.length"  >
+    <p>
+      <button ion-button block large color="secondary" (click)="disconnect()">Disconnect</button>
+    </p>
 
-      <ion-item>
-        <ion-list>
-          <ion-list-header>
-            Discovered Devices
-          </ion-list-header>
+    <p>
+      <button ion-button block large color="secondary" (click)="goToController()">Go</button>
+    </p>
 
-          <!-- *ngIf="device.name != ''" -->
-          <ion-item *ngFor="let device of devices" >
+    <ion-card *ngIf="devices.length">
+
+      <ion-card-header>
+        Discovered Devices
+      </ion-card-header>
+      
+      <ion-list>
+
+        <ion-item *ngFor="let device of devices" >
+          <ion-label>
             {{device.name}}
-            <button ion-button item-end>
-              Connect
-            </button>
-          </ion-item>
+          </ion-label>
+          <div item-content>
+            <button ion-button color="secondary" (click)="connect(device)">Connect</button>
+          </div>
+        </ion-item>
 
-        </ion-list>
-      </ion-item>
+      </ion-list>
+      
     </ion-card>
 
-    <button ion-button>refresh</button>
+    <!-- Why the F*** doesn't this work?!! >:( -->
+    <!--<ion-spinner *ngIf="isScanning==true" name="circles"></ion-spinner>-->
+
+    
 
     <p id="state">state</p>
     <p id="action">action</p>
