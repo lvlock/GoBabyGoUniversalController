@@ -3,11 +3,27 @@
   	<button ion-button menuToggle>
   		<ion-icon name="menu"></ion-icon>
   	</button>
-    <ion-title>Setup</ion-title>
+    <ion-title>Home</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  Home page
-  Version 1
+<ion-content padding class="card-background-page">
+  <!--<p style="background-image:url('assets/img/BAM_Logo_RYB.png');"></p>-->
+  
+  <ion-grid>
+    <ion-row>
+      <ion-col style = "height:200px;background-image:url('assets/img/BAM_Logo_RYB.png');background-size:100% 100%;"></ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <h2 text-center>Go-Baby-Go Universal Controller</h2>
+
+  <button ion-button block (click)="goToScan()">Begin</button>
+
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <p text-center text-wrap>Created by Team Babies Are Mobile</p>
+  </ion-toolbar>
+</ion-footer>

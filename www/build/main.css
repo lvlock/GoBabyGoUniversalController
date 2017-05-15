@@ -24665,3 +24665,8 @@ ion-navbar.toolbar {
     padding-top: calc(16px + 20px);
   }
 }
+
+page-home .card-background-page ion-card {
+  position: relative;
+  text-align: center;
+}

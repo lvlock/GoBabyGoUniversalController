@@ -22,10 +22,37 @@ export class ControllerPage {
 
 
   setSpeed(event) {
-    console.log("Speed set to %" + this.speed + ".");
-    var pwmSpeed = 255;
-    var data = new Uint8Array(1);
-    data[0] = pwmSpeed;
+    //console.log("Speed set to %" + this.speed + ".");
+    if (this.speed == 0) {
+      var pwmSpeed = 9;
+      var data = new Uint8Array(1);
+      data[0] = pwmSpeed;
+      this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+    } 
+    else if (this.speed == 25) {
+      var pwmSpeed = 25;
+      var data = new Uint8Array(1);
+      data[0] = pwmSpeed;
+      this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+    } 
+    else if (this.speed == 50) {
+      var pwmSpeed = 50;
+      var data = new Uint8Array(1);
+      data[0] = pwmSpeed;
+      this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+    } 
+    else if (this.speed == 75) {
+      var pwmSpeed = 9;
+      var data = new Uint8Array(1);
+      data[0] = pwmSpeed;
+      this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+    } 
+    else if (this.speed == 100) {
+      var pwmSpeed = 9;
+      var data = new Uint8Array(1);
+      data[0] = pwmSpeed;
+      this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+    }
   }
 
 
@@ -34,6 +61,7 @@ export class ControllerPage {
       var data = new Uint8Array(1);
       data[0] = 10;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+      this.brake();
     }
   }
 
@@ -50,7 +78,7 @@ export class ControllerPage {
   forwardLeft() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 5;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -59,7 +87,7 @@ export class ControllerPage {
   forwardRight() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 6;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -68,7 +96,7 @@ export class ControllerPage {
   right() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 4;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -77,7 +105,7 @@ export class ControllerPage {
   left() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 3;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -86,7 +114,7 @@ export class ControllerPage {
   backward() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 2;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -95,7 +123,7 @@ export class ControllerPage {
   backwardLeft() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 7;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }
@@ -104,7 +132,7 @@ export class ControllerPage {
   backwardRight() {
     if (this.device_id != undefined) {
       var data = new Uint8Array(1);
-      data[0] = 1;
+      data[0] = 8;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     }
   }

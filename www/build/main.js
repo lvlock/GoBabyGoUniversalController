@@ -77,7 +77,7 @@
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_rxjs_observable_merge__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share__ = __webpack_require__(256);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_operator_share__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(95);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__ = __webpack_require__(97);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_Subject___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_rxjs_Subject__);
 /* unused harmony export Class */
 /* unused harmony export createPlatform */
@@ -6145,7 +6145,7 @@ var SystemJsNgModuleLoader = (function () {
         if (exportName === undefined) {
             exportName = 'default';
         }
-        return __webpack_require__(100)(module)
+        return __webpack_require__(102)(module)
             .then(function (module) { return module[exportName]; })
             .then(function (type) { return checkNotEmpty(type, module, exportName); })
             .then(function (type) { return _this._compiler.compileModuleAsync(type); });
@@ -6161,7 +6161,7 @@ var SystemJsNgModuleLoader = (function () {
             exportName = 'default';
             factoryClassSuffix = '';
         }
-        return __webpack_require__(100)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
+        return __webpack_require__(102)(this._config.factoryPathPrefix + module + this._config.factoryPathSuffix)
             .then(function (module) { return module[exportName + factoryClassSuffix]; })
             .then(function (factory) { return checkNotEmpty(factory, module, exportName); });
     };
@@ -26872,10 +26872,10 @@ var IonicFormInput = (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__button_button__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_form__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__icon_icon__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ion__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__label_label__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__item_reorder__ = __webpack_require__(64);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Item; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -35178,10 +35178,10 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var isFunction_1 = __webpack_require__(99);
+var isFunction_1 = __webpack_require__(101);
 var Subscription_1 = __webpack_require__(37);
 var Observer_1 = __webpack_require__(186);
-var rxSubscriber_1 = __webpack_require__(96);
+var rxSubscriber_1 = __webpack_require__(98);
 /**
  * Implements the {@link Observer} interface and extends the
  * {@link Subscription} class. While the {@link Observer} is the public API for
@@ -36679,27 +36679,27 @@ function Navbar_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__ = __webpack_require__(56);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__components_app_app_root__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_app_menu_controller__ = __webpack_require__(23);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_1__components_app_menu_controller__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_action_sheet_action_sheet__ = __webpack_require__(53);
 /* unused harmony reexport ActionSheet */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_action_sheet_action_sheet_controller__ = __webpack_require__(107);
 /* unused harmony reexport ActionSheetController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_action_sheet_action_sheet_component__ = __webpack_require__(52);
 /* unused harmony reexport ActionSheetCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_alert_alert__ = __webpack_require__(55);
 /* unused harmony reexport Alert */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_alert_alert_controller__ = __webpack_require__(108);
 /* unused harmony reexport AlertController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_alert_alert_component__ = __webpack_require__(54);
 /* unused harmony reexport AlertCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__components_app_app__ = __webpack_require__(6);
 /* unused harmony reexport App */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_avatar_avatar__ = __webpack_require__(110);
 /* unused harmony reexport Avatar */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_backdrop_backdrop__ = __webpack_require__(57);
 /* unused harmony reexport Backdrop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_badge_badge__ = __webpack_require__(111);
 /* unused harmony reexport Badge */
@@ -36725,7 +36725,7 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport FabButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_fab_fab_container__ = __webpack_require__(119);
 /* unused harmony reexport FabContainer */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_fab_fab_list__ = __webpack_require__(58);
 /* unused harmony reexport FabList */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_grid_col__ = __webpack_require__(120);
 /* unused harmony reexport Col */
@@ -36735,11 +36735,11 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport Row */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_ion__ = __webpack_require__(4);
 /* unused harmony reexport Ion */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_icon_icon__ = __webpack_require__(59);
 /* unused harmony reexport Icon */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_img_img__ = __webpack_require__(123);
 /* unused harmony reexport Img */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_infinite_scroll_infinite_scroll__ = __webpack_require__(60);
 /* unused harmony reexport InfiniteScroll */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(124);
 /* unused harmony reexport InfiniteScrollContent */
@@ -36753,25 +36753,25 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport ItemDivider */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__components_item_item_group__ = __webpack_require__(128);
 /* unused harmony reexport ItemGroup */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37__components_item_item_options__ = __webpack_require__(63);
 /* unused harmony reexport ItemOptions */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_item_item_reorder__ = __webpack_require__(64);
 /* unused harmony reexport ItemReorder */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_item_item_sliding__ = __webpack_require__(130);
 /* unused harmony reexport ItemSliding */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_item_reorder__ = __webpack_require__(131);
 /* unused harmony reexport Reorder */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_label_label__ = __webpack_require__(65);
 /* unused harmony reexport Label */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_list_list__ = __webpack_require__(67);
 /* unused harmony reexport List */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_list_list_header__ = __webpack_require__(66);
 /* unused harmony reexport ListHeader */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_loading_loading__ = __webpack_require__(133);
 /* unused harmony reexport Loading */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_loading_loading_controller__ = __webpack_require__(132);
 /* unused harmony reexport LoadingController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_loading_loading_component__ = __webpack_require__(68);
 /* unused harmony reexport LoadingCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_menu_menu__ = __webpack_require__(136);
 /* unused harmony reexport Menu */
@@ -36783,51 +36783,51 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport MenuType */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_modal_modal__ = __webpack_require__(138);
 /* unused harmony reexport Modal */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_modal_modal_component__ = __webpack_require__(69);
 /* unused harmony reexport ModalCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_modal_modal_controller__ = __webpack_require__(137);
 /* unused harmony reexport ModalController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__ = __webpack_require__(72);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_54__components_nav_nav__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_nav_nav_pop__ = __webpack_require__(70);
 /* unused harmony reexport NavPop */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_nav_nav_pop_anchor__ = __webpack_require__(139);
 /* unused harmony reexport NavPopAnchor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_nav_nav_push__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_nav_nav_push__ = __webpack_require__(71);
 /* unused harmony reexport NavPush */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_nav_nav_push_anchor__ = __webpack_require__(140);
 /* unused harmony reexport NavPushAnchor */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_input_native_input__ = __webpack_require__(59);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_input_native_input__ = __webpack_require__(61);
 /* unused harmony reexport NativeInput */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_input_next_input__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_input_next_input__ = __webpack_require__(62);
 /* unused harmony reexport NextInput */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_note_note__ = __webpack_require__(141);
 /* unused harmony reexport Note */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_option_option__ = __webpack_require__(71);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_option_option__ = __webpack_require__(73);
 /* unused harmony reexport Option */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_picker_picker__ = __webpack_require__(142);
 /* unused harmony reexport Picker */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_picker_picker_component__ = __webpack_require__(75);
 /* unused harmony reexport PickerCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_picker_picker_column__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_picker_picker_column__ = __webpack_require__(74);
 /* unused harmony reexport PickerColumnCmp */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_picker_picker_controller__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_picker_picker_controller__ = __webpack_require__(76);
 /* unused harmony reexport PickerController */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_popover_popover__ = __webpack_require__(78);
 /* unused harmony reexport Popover */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_popover_popover_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_popover_popover_component__ = __webpack_require__(77);
 /* unused harmony reexport PopoverCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_popover_popover_controller__ = __webpack_require__(143);
 /* unused harmony reexport PopoverController */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_radio_radio_button__ = __webpack_require__(144);
 /* unused harmony reexport RadioButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_radio_radio_group__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_radio_radio_group__ = __webpack_require__(79);
 /* unused harmony reexport RadioGroup */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_range_range__ = __webpack_require__(146);
 /* unused harmony reexport Range */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_range_range_knob__ = __webpack_require__(145);
 /* unused harmony reexport RangeKnob */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_refresher_refresher__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_refresher_refresher__ = __webpack_require__(80);
 /* unused harmony reexport Refresher */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_refresher_refresher_content__ = __webpack_require__(147);
 /* unused harmony reexport RefresherContent */
@@ -36837,21 +36837,21 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport Searchbar */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_segment_segment__ = __webpack_require__(150);
 /* unused harmony reexport Segment */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_segment_segment_button__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_segment_segment_button__ = __webpack_require__(81);
 /* unused harmony reexport SegmentButton */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_select_select__ = __webpack_require__(151);
 /* unused harmony reexport Select */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_select_select_popover_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_select_select_popover_component__ = __webpack_require__(82);
 /* unused harmony reexport SelectPopover */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_show_hide_when_show_when__ = __webpack_require__(153);
 /* unused harmony reexport ShowWhen */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_show_hide_when_display_when__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_show_hide_when_display_when__ = __webpack_require__(83);
 /* unused harmony reexport DisplayWhen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_show_hide_when_hide_when__ = __webpack_require__(152);
 /* unused harmony reexport HideWhen */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_slides_slide__ = __webpack_require__(154);
 /* unused harmony reexport Slide */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_slides_slides__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_slides_slides__ = __webpack_require__(84);
 /* unused harmony reexport Slides */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_spinner_spinner__ = __webpack_require__(157);
 /* unused harmony reexport Spinner */
@@ -36862,13 +36862,13 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport Tab */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_tabs_tab_button__ = __webpack_require__(158);
 /* unused harmony reexport TabButton */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_tabs_tab_highlight__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_tabs_tab_highlight__ = __webpack_require__(89);
 /* unused harmony reexport TabHighlight */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_tabs_tabs__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_tabs_tabs__ = __webpack_require__(90);
 /* unused harmony reexport Tabs */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_toast_toast__ = __webpack_require__(162);
 /* unused harmony reexport Toast */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toast_toast_component__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_toast_toast_component__ = __webpack_require__(91);
 /* unused harmony reexport ToastCmp */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_toast_toast_controller__ = __webpack_require__(161);
 /* unused harmony reexport ToastController */
@@ -36890,11 +36890,11 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport Thumbnail */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_104__components_typography_typography__ = __webpack_require__(169);
 /* unused harmony reexport Typography */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_virtual_scroll_virtual_footer__ = __webpack_require__(90);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_virtual_scroll_virtual_footer__ = __webpack_require__(92);
 /* unused harmony reexport VirtualFooter */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_header__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_virtual_scroll_virtual_header__ = __webpack_require__(93);
 /* unused harmony reexport VirtualHeader */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_virtual_scroll_virtual_item__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_virtual_scroll_virtual_item__ = __webpack_require__(94);
 /* unused harmony reexport VirtualItem */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_virtual_scroll_virtual_scroll__ = __webpack_require__(170);
 /* unused harmony reexport VirtualScroll */
@@ -36935,7 +36935,7 @@ function Navbar_tsickle_Closure_declarations() {
 /* unused harmony reexport PanGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_123__gestures_gesture__ = __webpack_require__(224);
 /* unused harmony reexport Gesture */
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__gestures_slide_edge_gesture__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_124__gestures_slide_edge_gesture__ = __webpack_require__(95);
 /* unused harmony reexport SlideEdgeGesture */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_125__gestures_slide_gesture__ = __webpack_require__(174);
 /* unused harmony reexport SlideGesture */
@@ -37254,11 +37254,11 @@ function Haptic_tsickle_Closure_declarations() {
 
 "use strict";
 
-var isArray_1 = __webpack_require__(98);
+var isArray_1 = __webpack_require__(100);
 var isObject_1 = __webpack_require__(190);
-var isFunction_1 = __webpack_require__(99);
+var isFunction_1 = __webpack_require__(101);
 var tryCatch_1 = __webpack_require__(193);
-var errorObject_1 = __webpack_require__(97);
+var errorObject_1 = __webpack_require__(99);
 var UnsubscriptionError_1 = __webpack_require__(259);
 /**
  * Represents a disposable resource, such as the execution of an Observable. A
@@ -41613,7 +41613,7 @@ function FabButton_tsickle_Closure_declarations() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_classes__ = __webpack_require__(85);
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateActiveIndex;
 /* harmony export (immutable) */ __webpack_exports__["b"] = updateRealIndex;
 
@@ -41750,13 +41750,13 @@ function updateSlidesProgress(s, translate) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(41);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_classes__ = __webpack_require__(85);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_parallax__ = __webpack_require__(155);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_index__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(84);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_effects__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__swiper_pagination__ = __webpack_require__(87);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_zoom__ = __webpack_require__(156);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initSwiper;
 /* harmony export (immutable) */ __webpack_exports__["f"] = startAutoplay;
@@ -44618,7 +44618,7 @@ function TransitionController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__ = __webpack_require__(49);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ControllerPage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -44644,15 +44644,42 @@ var ControllerPage = (function () {
     }
     ControllerPage.prototype.setSpeed = function (event) {
         console.log("Speed set to %" + this.speed + ".");
-        var pwmSpeed = 255;
-        var data = new Uint8Array(1);
-        data[0] = pwmSpeed;
+        if (this.speed == 0) {
+            var pwmSpeed = 9;
+            var data = new Uint8Array(1);
+            data[0] = pwmSpeed;
+            this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+        }
+        else if (this.speed == 25) {
+            var pwmSpeed = 25;
+            var data = new Uint8Array(1);
+            data[0] = pwmSpeed;
+            this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+        }
+        else if (this.speed == 50) {
+            var pwmSpeed = 50;
+            var data = new Uint8Array(1);
+            data[0] = pwmSpeed;
+            this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+        }
+        else if (this.speed == 75) {
+            var pwmSpeed = 9;
+            var data = new Uint8Array(1);
+            data[0] = pwmSpeed;
+            this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+        }
+        else if (this.speed == 100) {
+            var pwmSpeed = 9;
+            var data = new Uint8Array(1);
+            data[0] = pwmSpeed;
+        }
     };
     ControllerPage.prototype.emergencyStop = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
             data[0] = 10;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
+            this.brake();
         }
     };
     ControllerPage.prototype.forward = function () {
@@ -44665,49 +44692,49 @@ var ControllerPage = (function () {
     ControllerPage.prototype.forwardLeft = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 5;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.forwardRight = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 6;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.right = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 4;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.left = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 3;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.backward = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 2;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.backwardLeft = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 7;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
     ControllerPage.prototype.backwardRight = function () {
         if (this.device_id != undefined) {
             var data = new Uint8Array(1);
-            data[0] = 1;
+            data[0] = 8;
             this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
         }
     };
@@ -44722,16 +44749,774 @@ var ControllerPage = (function () {
 }());
 ControllerPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-controller',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\controller\controller.html"*/'<ion-header>\n  <ion-navbar>\n  	<button ion-button menuToggle>\n  		<ion-icon name="menu"></ion-icon>\n  	</button>\n    <ion-title>Car Controller</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Variable Speed</h6>\n		</div>\n	</ion-item>\n\n	<ion-item>\n		<ion-range [(ngModel)] = "speed" step="25" snaps="true" (ionChange) ="setSpeed()">\n			<ion-label range-left>%0</ion-label>\n			<ion-label range-right>%100</ion-label>\n		</ion-range>\n	</ion-item>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Emergency Stop</h6>\n			<p>After stopping the car, press to restart</p>\n		</div>\n	</ion-item>\n\n	<ion-item>\n		<button ion-button id="stop" color="danger" block (click) = "emergencyStop()">EMERGENCY STOP</button>\n	</ion-item>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Virtual Joystick</h6>\n		</div>\n	</ion-item> \n    \n    <ion-grid>\n	    <ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part8.png\');background-size:100% 100%;" (touchstart)="forwardLeft()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part1.png\');background-size:100% 100%;" (touchstart)="forward()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part2.png\');background-size:100% 100%;" (touchstart)="forwardRight()" (touchend)="brake()"></ion-col>\n		</ion-row>\n		<ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part7.png\');background-size:100% 100%;" (touchstart)="left()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part3.png\');background-size:100% 100%;" (touchstart)="right()" (touchend)="brake()"></ion-col>\n		</ion-row>\n		<ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part6.png\');background-size:100% 100%;" (touchstart)="backwardLeft()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part5.png\');background-size:100% 100%;" (touchstart)="backward()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part4.png\');background-size:100% 100%;" (touchstart)="backwardRight()" (touchend)="brake()"></ion-col>\n		</ion-row>\n	</ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\controller\controller.html"*/
+        selector: 'page-controller',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\controller\controller.html"*/'<ion-header>\n  <ion-navbar>\n  	<button ion-button menuToggle>\n  		<ion-icon name="menu"></ion-icon>\n  	</button>\n    <ion-title>Car Controller</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Variable Speed</h6>\n		</div>\n	</ion-item>\n\n	<ion-item>\n		<ion-range [(ngModel)] = "speed" step="25" snaps="true" (ionChange) ="setSpeed()">\n			<ion-label range-left>%0</ion-label>\n			<ion-label range-right>%100</ion-label>\n		</ion-range>\n	</ion-item>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Emergency Stop</h6>\n			<p>After stopping the car, press to restart</p>\n		</div>\n	</ion-item>\n\n	<ion-item>\n		<button ion-button large id="stop" color="danger" block (click) = "emergencyStop()">EMERGENCY STOP</button>\n	</ion-item>\n\n	<ion-item>\n		<div class = "bar bar-subheader">\n			<h6 class = "title">Virtual Joystick</h6>\n		</div>\n	</ion-item> \n    \n    <ion-grid>\n	    <ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part8.png\');background-size:100% 100%;" (touchstart)="forwardLeft()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part1.png\');background-size:100% 100%;" (touchstart)="forward()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part2.png\');background-size:100% 100%;" (touchstart)="forwardRight()" (touchend)="brake()"></ion-col>\n		</ion-row>\n		<ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part7.png\');background-size:100% 100%;" (touchstart)="left()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part3.png\');background-size:100% 100%;" (touchstart)="right()" (touchend)="brake()"></ion-col>\n		</ion-row>\n		<ion-row> \n	    	<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part6.png\');background-size:100% 100%;" (touchstart)="backwardLeft()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part5.png\');background-size:100% 100%;" (touchstart)="backward()" (touchend)="brake()"></ion-col>\n			<ion-col ion-button clear style = "height:80px;background-image:url(\'assets/img/Buttons_Part4.png\');background-size:100% 100%;" (touchstart)="backwardRight()" (touchend)="brake()"></ion-col>\n		</ion-row>\n	</ion-grid>\n\n\n</ion-content>\n'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\controller\controller.html"*/
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]) === "function" && _c || Object])
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
 ], ControllerPage);
 
-var _a, _b, _c;
 //# sourceMappingURL=controller.js.map
 
 /***/ }),
 /* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__controller_controller__ = __webpack_require__(47);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScanPage; });
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ScanPage = (function () {
+    function ScanPage(ble, navCtrl, navParams) {
+        this.ble = ble;
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.devices = [];
+        //this.isScanning = false;
+        this.connected = false;
+        this.device_id = null;
+        this.service = null;
+        this.characteristic = null;
+    }
+    ScanPage.prototype.ble_scan = function (event) {
+        var _this = this;
+        this.devices = [];
+        document.getElementById("status").innerHTML = "Scanning...";
+        this.ble.startScanWithOptions([], { reportDuplicates: false }).subscribe(function (device) {
+            _this.devices.push(device);
+            //document.getElementById("state").innerHTML = "Started Scanning...";
+            //document.getElementById("action").innerHTML = "startScan()";
+            //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+            //document.getElementById("test").innerHTML = "test";
+        }, function (error) {
+            //document.getElementById("state").innerHTML = "ERROR";
+            //document.getElementById("action").innerHTML = "ERROR: startScan()";
+            //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+            //document.getElementById("test").innerHTML = "ERROR: " + error;
+        });
+        /*
+        this.ble.startScan([]).subscribe(
+            (device) => {
+                this.devices.push(device);
+                document.getElementById("state").innerHTML = "Started Scanning...";
+                document.getElementById("action").innerHTML = "startScan()";
+                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                document.getElementById("test").innerHTML = "test";
+            },
+            (error) => {
+                document.getElementById("state").innerHTML = "ERROR";
+                document.getElementById("action").innerHTML = "ERROR: startScan()";
+                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                document.getElementById("test").innerHTML = "ERROR: " + error;
+            }
+        );
+        */
+        setTimeout(function () {
+            document.getElementById("status").innerHTML = "";
+            _this.ble.stopScan().then(function (success) {
+                //document.getElementById("state").innerHTML = "Scan successful";
+                //document.getElementById("action").innerHTML = "stopScan()";
+                //document.getElementById("test").innerHTML = "SUCCESS: " + success;
+                //this.isScanning = false;
+                for (var i = 0; i < _this.devices.length; i++) {
+                    if (_this.devices[i].name == undefined) {
+                        _this.devices.splice(i, 1);
+                        //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                    }
+                }
+            }, function (reason) {
+                //document.getElementById("state").innerHTML = "ERROR: ble_scan.setTimeout()";
+                //document.getElementById("action").innerHTML = "stopScan()";
+                //document.getElementById("test").innerHTML = "ERROR: " + reason;
+                //this.isScanning = false;
+            });
+        }, 3000);
+    };
+    ScanPage.prototype.connect = function (device) {
+        var _this = this;
+        document.getElementById("status").innerHTML = "Attempting to connect to " + device.name;
+        this.ble.connect(device.id).subscribe(function (success) {
+            _this.device_id = device.id;
+            _this.get_IDs(success);
+            document.getElementById("status").innerHTML = "Connected!";
+            //document.getElementById("state").innerHTML = "Connected";
+            //document.getElementById("action").innerHTML = "connect(device)";
+            //document.getElementById("test").innerHTML = "SUCCESS: " + success;
+        }, function (reason) {
+            document.getElementById("status").innerHTML = "Failed to connect!";
+            //document.getElementById("state").innerHTML = "ERROR";
+            //document.getElementById("action").innerHTML = "connect(device)";
+            //document.getElementById("test").innerHTML = "ERROR: " + reason;
+        });
+    };
+    // Parse through the connected object and get the serviceUUID and characteristicUUID of the device
+    ScanPage.prototype.get_IDs = function (device) {
+        var _this = this;
+        // Look at each service ID value in the list of offered services...
+        device.services.forEach(function (service) {
+            // For each characteristic object (item) in the list of characteristics...
+            device.characteristics.forEach(function (item) {
+                // If the characteristic's service ID matches one of the offered services
+                if (item.service == service) {
+                    // Find out if the properties of the characteristic containing "WriteWithoutResponse"
+                    item.properties.forEach(function (property) {
+                        // If the characteristic contains the "WriteWithoutResponse"
+                        if (property == "WriteWithoutResponse") {
+                            // Save the characteristic and service UUIDs
+                            _this.service = item.service;
+                            _this.characteristic = item.characteristic;
+                        }
+                    });
+                }
+            });
+        });
+        //document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
+    };
+    /*
+    Device Object:
+
+        Android:
+            {
+                "name": "",
+                "id": "",
+                "advertising": {},
+                "rssi": -0,
+                "services":["","","ffe0"],	// use this: for each (service = device.services) -> for each ([service])
+                "characteristics":				// device.characteristics -> [{},{},..}].item -> {}.service === devices
+                    [
+                        {	// This is the one we need
+                            "service": "ffe0",
+                            "characteristic": "ffe1",
+                            "properties": ["Read","WriteWithoutResponse","Notify"],
+                            // optional:
+                            "descriptors": [{"uuid": ""}, {"uuid": ""}]
+                        },
+                        {
+                            "service": "",
+                            "characteristic": "",
+                            "properties": ["","",""],
+                        },
+                        .
+                        .
+                        .
+                    ]
+            }
+
+        iOS:
+            {
+                "characteristics":
+                    [
+                        {	// this is the one we want
+                            "properites": ["Read", "WriteWithoutResponse", "Notify"],
+                            "isNotifying": false,
+                            "characteristic": "FFE1",
+                            "service": "FFE0"
+                        },
+                        {
+                            "properties": ["", ""],
+                            "isNotifying": boolean,
+                            "characteristic": "",
+                            "service": ""
+                        },
+                        .
+                        .
+                        .
+                    ],
+                "id": "",
+                "rssi": -0,
+                "advertising":
+                    {
+                        "kCBAdvDataLocalName": "",
+                        "kCBAdvDataServiceUUIDs": [""],	// could be useful, but doesn't exist in android object
+                        "kCBAdvDataTxPowerLevel": 0,
+                        "kCBAdvDataIsConnectable": boolean
+                    },
+                "name": "",
+                "services": ["","ffe0"]	// use this: for each (service = device.services) -> for each (["service"])
+                                            // device.characteristics -> [{},{},...].item -> {}.service == service
+            }
+    */
+    ScanPage.prototype.disconnect = function (event) {
+        var _this = this;
+        document.getElementById("status").innerHTML = "Attempting to disconnect...";
+        this.ble.disconnect(this.device_id).then(function (success) {
+            _this.device_id = null;
+            _this.service = null;
+            _this.characteristic = null;
+            document.getElementById("status").innerHTML = "Disconnected!";
+            //document.getElementById("state").innerHTML = "Disconnected";
+            //document.getElementById("action").innerHTML = "disconnect()";
+            //document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
+            //document.getElementById("test").innerHTML = "SUCCESS: " + success;
+        }, function (reason) {
+            document.getElementById("status").innerHTML = "Failed to disconnect!";
+            //document.getElementById("state").innerHTML = "ERROR";
+            //document.getElementById("action").innerHTML = "disconnect()";
+            //document.getElementById("test").innerHTML = "ERROR: " + reason;
+        });
+    };
+    ScanPage.prototype.goToController = function (event) {
+        if (this.device_id != null) {
+            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__controller_controller__["a" /* ControllerPage */], {
+                device_id: this.device_id,
+                service: this.service,
+                characteristic: this.characteristic
+            });
+        }
+    };
+    return ScanPage;
+}());
+ScanPage = __decorate([
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
+        selector: 'page-scan',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\scan\scan.html"*/'<ion-header>\n\n  <ion-navbar>\n\n  	<button ion-button menuToggle>\n\n  		<ion-icon name="menu"></ion-icon>\n\n  	</button>\n\n    <ion-title>Connect to Car</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <h4>Scan for the Bluetooth Module</h4>\n\n    \n\n    <button ion-button icon-left block large (click)="ble_scan()">\n\n      <ion-icon name="bluetooth"></ion-icon>\n\n      Scan\n\n    </button>\n\n\n\n    <p>\n\n      <button ion-button block large color="secondary" (click)="disconnect()">Disconnect</button>\n\n    </p>\n\n\n\n    <ion-item>\n\n      <h6 id="status"></h6>\n\n    </ion-item>\n\n\n\n    <ion-item padding>\n\n      <p text-wrap text-center>When connected, press GO to navigate to the Car Controller</p>\n\n      <button ion-button block large outline (click)="goToController()">GO</button>\n\n    </ion-item>\n\n\n\n    <ion-card *ngIf="devices.length">\n\n\n\n      <ion-card-header>\n\n        Discovered Devices\n\n      </ion-card-header>\n\n      \n\n      <ion-list>\n\n\n\n        <ion-item *ngFor="let device of devices" >\n\n          <ion-label>\n\n            {{device.name}}\n\n          </ion-label>\n\n          <div item-content>\n\n            <button ion-button (click)="connect(device)">Connect</button>\n\n          </div>\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n      \n\n      <p padding>Ignore duplicate names... Either connect button will work.</p>\n\n      <p padding-bottom padding-left padding-right>Ignore blank names</p>\n\n    </ion-card>\n\n\n\n    <!-- Why the F*** doesn\'t this work?!! >:( -->\n\n    <!--<ion-spinner *ngIf="isScanning==true" name="circles"></ion-spinner>-->\n\n\n\n    \n\n    <!-- For testing\n\n    <p id="state">state</p>\n\n    <p id="action">action</p>\n\n    <p id="data">data</p>\n\n    <p id="test">test</p>\n\n    -->\n\n</ion-content>'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\scan\scan.html"*/
+    }),
+    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */],
+        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
+], ScanPage);
+
+//# sourceMappingURL=scan.js.map
+
+/***/ }),
+/* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BLE; });
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * @name BLE
+ * @description
+ * This plugin enables communication between a phone and Bluetooth Low Energy (BLE) peripherals.
+ *
+ * The plugin provides a simple JavaScript API for iOS and Android.
+ *
+ * - Scan for peripherals
+ * - Connect to a peripheral
+ * - Read the value of a characteristic
+ * - Write new value to a characteristic
+ * - Get notified when characteristic's value changes
+ *
+ * Advertising information is returned when scanning for peripherals. Service, characteristic, and property info is returned when connecting to a peripheral. All access is via service and characteristic UUIDs. The plugin manages handles internally.
+ *
+ * Simultaneous connections to multiple peripherals are supported.
+ *
+ * @usage
+ *
+ * ```typescript
+ *
+ * import { BLE } from '@ionic-native/ble';
+ *
+ * constructor(private ble: BLE) { }
+ *
+ * ```
+ *
+ * ## Peripheral Data
+ *
+ * Peripheral Data is passed to the success callback when scanning and connecting. Limited data is passed when scanning.
+ *
+ * ```typescript
+ *   {
+ *       "name": "Battery Demo",
+ *       "id": "20:FF:D0:FF:D1:C0",
+ *       "advertising": [2,1,6,3,3,15,24,8,9,66,97,116,116,101,114,121],
+ *       "rssi": -55
+ *   }
+ * ```
+ * After connecting, the peripheral object also includes service, characteristic and descriptor information.
+ *
+ * ```typescript
+ *   {
+ *       "name": "Battery Demo",
+ *       "id": "20:FF:D0:FF:D1:C0",
+ *       "advertising": [2,1,6,3,3,15,24,8,9,66,97,116,116,101,114,121],
+ *       "rssi": -55,
+ *       "services": [
+ *           "1800",
+ *           "1801",
+ *           "180f"
+ *       ],
+ *       "characteristics": [
+ *           {
+ *               "service": "1800",
+ *               "characteristic": "2a00",
+ *               "properties": [
+ *                   "Read"
+ *               ]
+ *           },
+ *           {
+ *               "service": "1800",
+ *               "characteristic": "2a01",
+ *               "properties": [
+ *                   "Read"
+ *               ]
+ *           },
+ *           {
+ *               "service": "1801",
+ *               "characteristic": "2a05",
+ *               "properties": [
+ *                   "Read"
+ *               ]
+ *           },
+ *           {
+ *               "service": "180f",
+ *               "characteristic": "2a19",
+ *               "properties": [
+ *                   "Read"
+ *               ],
+ *               "descriptors": [
+ *                   {
+ *                       "uuid": "2901"
+ *                   },
+ *                   {
+ *                       "uuid": "2904"
+ *                   }
+ *               ]
+ *           }
+ *       ]
+ *   }
+ * ```
+ *
+ * ## Advertising Data
+ * Bluetooth advertising data is returned in when scanning for devices. The format format varies depending on your platform. On Android advertising data will be the raw advertising bytes. iOS does not allow access to raw advertising data, so a dictionary of data is returned.
+ *
+ * The advertising information for both Android and iOS appears to be a combination of advertising data and scan response data.
+ *
+ * ### Android
+ *
+ * ```typescript
+ *   {
+ *       "name": "demo",
+ *       "id": "00:1A:7D:DA:71:13",
+ *       "advertising": ArrayBuffer,
+ *      "rssi": -37
+ *  }
+ * ```
+ *
+ * Convert the advertising info to a Uint8Array for processing. `var adData = new Uint8Array(peripheral.advertising)`
+ *
+ * ### iOS
+ *
+ * Note that iOS uses the string value of the constants for the [Advertisement Data Retrieval Keys](https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/CBCentralManagerDelegate_Protocol/index.html#//apple_ref/doc/constant_group/Advertisement_Data_Retrieval_Keys). This will likely change in the future.
+ *
+ * ```typescript
+ *   {
+ *       "name": "demo",
+ *       "id": "D8479A4F-7517-BCD3-91B5-3302B2F81802",
+ *       "advertising": {
+ *           "kCBAdvDataChannel": 37,
+ *           "kCBAdvDataServiceData": {
+ *               "FED8": {
+ *                   "byteLength": 7 // data not shown
+ *               }
+ *           },
+ *           "kCBAdvDataLocalName": "demo",
+ *           "kCBAdvDataServiceUUIDs": ["FED8"],
+ *           "kCBAdvDataManufacturerData": {
+ *               "byteLength": 7  // data not shown
+ *           },
+ *           "kCBAdvDataTxPowerLevel": 32,
+ *           "kCBAdvDataIsConnectable": true
+ *       },
+ *       "rssi": -53
+ *   }
+ * ```
+ *
+ * ## Typed Arrays
+ *
+ * This plugin uses typed Arrays or ArrayBuffers for sending and receiving data.
+ *
+ * This means that you need convert your data to ArrayBuffers before sending and from ArrayBuffers when receiving.
+ *
+ * ```typescript
+ *   // ASCII only
+ *   function stringToBytes(string) {
+ *      var array = new Uint8Array(string.length);
+ *      for (var i = 0, l = string.length; i < l; i++) {
+ *          array[i] = string.charCodeAt(i);
+ *       }
+ *       return array.buffer;
+ *   }
+ *
+ *   // ASCII only
+ *   function bytesToString(buffer) {
+ *       return String.fromCharCode.apply(null, new Uint8Array(buffer));
+ *   }
+ * ```
+ * You can read more about typed arrays in these articles on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) and [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/).
+ *
+ * ## UUIDs
+ *
+ * UUIDs are always strings and not numbers. Some 16-bit UUIDs, such as '2220' look like integers, but they're not. (The integer 2220 is 0x8AC in hex.) This isn't a problem with 128 bit UUIDs since they look like strings 82b9e6e1-593a-456f-be9b-9215160ebcac. All 16-bit UUIDs should also be passed to methods as strings.
+ *
+ */
+var BLE = (function (_super) {
+    __extends(BLE, _super);
+    function BLE() {
+        _super.apply(this, arguments);
+    }
+    /**
+     * Scan and discover BLE peripherals for the specified amount of time.
+     *
+     * @usage
+     * ```
+     * BLE.scan([], 5).subscribe(device => {
+     *   console.log(JSON.stringify(device));
+     * });
+     * ```
+     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
+     * @param {number} seconds  Number of seconds to run discovery
+     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral that is discovered during the specified time.
+     */
+    BLE.prototype.scan = function (services, seconds) { return; };
+    /**
+     * Scan and discover BLE peripherals until `stopScan` is called.
+     *
+     * @usage
+     * ```
+     * BLE.startScan([]).subscribe(device => {
+     *   console.log(JSON.stringify(device));
+     * });
+     *
+     * setTimeout(() => {
+     *   BLE.stopScan();
+     * }, 5000);
+     * ```
+     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
+     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral discovered.
+     */
+    BLE.prototype.startScan = function (services) { return; };
+    /**
+     * Scans for BLE devices. This function operates similarly to the `startScan` function, but allows you to specify extra options (like allowing duplicate device reports).
+     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
+     * @param options {any}
+     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral discovered.
+     */
+    BLE.prototype.startScanWithOptions = function (services, options) { return; };
+    /**
+     * Stop a scan started by `startScan`.
+     *
+     * @usage
+     * ```
+     * BLE.startScan([]).subscribe(device => {
+     *   console.log(JSON.stringify(device));
+     * });
+     * setTimeout(() => {
+     *   BLE.stopScan().then(() => { console.log('scan stopped'); });
+     * }, 5000);
+     * ```
+     * @return returns a Promise.
+     */
+    BLE.prototype.stopScan = function () { return; };
+    /**
+     * Connect to a peripheral.
+     * @usage
+     * ```
+     *   BLE.connect('12:34:56:78:9A:BC').subscribe(peripheralData => {
+     *     console.log(peripheralData);
+     *   },
+     *   peripheralData => {
+     *     console.log('disconnected');
+     *   });
+     * ```
+     * @param deviceId {string}  UUID or MAC address of the peripheral
+     * @return Returns an Observable that notifies of connect/disconnect.
+     */
+    BLE.prototype.connect = function (deviceId) { return; };
+    /**
+     * Disconnect from a peripheral.
+     * @usage
+     * ```
+     *   BLE.disconnect('12:34:56:78:9A:BC').then(() => {
+     *     console.log('Disconnected');
+     *   });
+     * ```
+     * @param deviceId {string}  UUID or MAC address of the peripheral
+     * @return Returns a Promise
+     */
+    BLE.prototype.disconnect = function (deviceId) { return; };
+    /**
+     * Read the value of a characteristic.
+     *
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @param {string} serviceUUID  UUID of the BLE service
+     * @param {string} characteristicUUID  UUID of the BLE characteristic
+     * @return Returns a Promise
+     */
+    BLE.prototype.read = function (deviceId, serviceUUID, characteristicUUID) { return; };
+    ;
+    /**
+     * Write the value of a characteristic.
+     * @usage
+     * ```
+     * // send 1 byte to switch a light on
+     * var data = new Uint8Array(1);
+     * data[0] = 1;
+     * BLE.write(device_id, "FF10", "FF11", data.buffer);
+     *
+     * // send a 3 byte value with RGB color
+     * var data = new Uint8Array(3);
+     * data[0] = 0xFF;  // red
+     * data[0] = 0x00; // green
+     * data[0] = 0xFF; // blue
+     * BLE.write(device_id, "ccc0", "ccc1", data.buffer);
+     *
+     * // send a 32 bit integer
+     * var data = new Uint32Array(1);
+     * data[0] = counterInput.value;
+     * BLE.write(device_id, SERVICE, CHARACTERISTIC, data.buffer);
+     *
+     * ```
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @param {string} serviceUUID  UUID of the BLE service
+     * @param {string} characteristicUUID  UUID of the BLE characteristic
+     * @param {ArrayBuffer} value  Data to write to the characteristic, as an ArrayBuffer.
+     * @return Returns a Promise
+     */
+    BLE.prototype.write = function (deviceId, serviceUUID, characteristicUUID, value) { return; };
+    /**
+     * Write the value of a characteristic without waiting for confirmation from the peripheral.
+     *
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @param {string} serviceUUID  UUID of the BLE service
+     * @param {string} characteristicUUID  UUID of the BLE characteristic
+     * @param {ArrayBuffer} value  Data to write to the characteristic, as an ArrayBuffer.
+     * @return Returns a Promise
+     */
+    BLE.prototype.writeWithoutResponse = function (deviceId, serviceUUID, characteristicUUID, value) { return; };
+    /**
+     * Register to be notified when the value of a characteristic changes.
+     *
+     * @usage
+     * ```
+     * BLE.startNotification(device_id, "FF10", "FF11").subscribe(buffer => {
+     *   console.log(String.fromCharCode.apply(null, new Uint8Array(buffer));
+     * });
+     * ```
+     *
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @param {string} serviceUUID  UUID of the BLE service
+     * @param {string} characteristicUUID  UUID of the BLE characteristic
+     * @return Returns an Observable that notifies of characteristic changes.
+     */
+    BLE.prototype.startNotification = function (deviceId, serviceUUID, characteristicUUID) { return; };
+    /**
+     * Stop being notified when the value of a characteristic changes.
+     *
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @param {string} serviceUUID  UUID of the BLE service
+     * @param {string} characteristicUUID  UUID of the BLE characteristic
+     * @returns {Promise<any>}
+     */
+    BLE.prototype.stopNotification = function (deviceId, serviceUUID, characteristicUUID) { return; };
+    /**
+     * Report the connection status.
+     *
+     * @usage
+     * ```
+     * BLE.isConnected('FFCA0B09-CB1D-4DC0-A1EF-31AFD3EDFB53').then(
+     *   () => { console.log('connected'); },
+     *   () => { console.log('not connected'); }
+     * );
+     * ```
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     * @returns {Promise<any>}
+     */
+    BLE.prototype.isConnected = function (deviceId) { return; };
+    /**
+     * Report if bluetooth is enabled.
+     *
+     * @returns {Promise<void>} Returns a Promise that resolves if Bluetooth is enabled, and rejects if disabled.
+     */
+    BLE.prototype.isEnabled = function () { return; };
+    /**
+     * Open System Bluetooth settings (Android only).
+     *
+     * @returns {Promise<any>}
+     */
+    BLE.prototype.showBluetoothSettings = function () { return; };
+    /**
+     * Enable Bluetooth on the device (Android only).
+     *
+     * @returns {Promise<any>}
+     */
+    BLE.prototype.enable = function () { return; };
+    /**
+     * Read the RSSI value on the device connection.
+     *
+     * @param {string} deviceId  UUID or MAC address of the peripheral
+     *
+     *@returns {Promise<any>}
+     */
+    BLE.readRSSI = function (deviceId) { return; };
+    BLE.decorators = [
+        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* Injectable */] },
+    ];
+    /** @nocollapse */
+    BLE.ctorParameters = function () { return []; };
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
+            observable: true
+        }), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [Array, Number]), 
+        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
+    ], BLE.prototype, "scan", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
+            observable: true,
+            clearFunction: 'stopScan',
+            clearWithArgs: false
+        }), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [Array]), 
+        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
+    ], BLE.prototype, "startScan", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
+            observable: true,
+            clearFunction: 'stopScan',
+            clearWithArgs: false
+        }), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [Array, Object]), 
+        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
+    ], BLE.prototype, "startScanWithOptions", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', []), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "stopScan", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
+            observable: true,
+            clearFunction: 'disconnect',
+            clearWithArgs: true
+        }), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String]), 
+        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
+    ], BLE.prototype, "connect", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "disconnect", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String, String, String]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "read", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String, String, String, ArrayBuffer]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "write", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String, String, String, ArrayBuffer]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "writeWithoutResponse", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
+            observable: true,
+            clearFunction: 'stopNotification',
+            clearWithArgs: true
+        }), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String, String, String]), 
+        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
+    ], BLE.prototype, "startNotification", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String, String, String]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "stopNotification", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String]), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "isConnected", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', []), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "isEnabled", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', []), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "showBluetoothSettings", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', []), 
+        __metadata('design:returntype', Promise)
+    ], BLE.prototype, "enable", null);
+    __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
+        __metadata('design:type', Function), 
+        __metadata('design:paramtypes', [String]), 
+        __metadata('design:returntype', Promise)
+    ], BLE, "readRSSI", null);
+    BLE = __decorate([
+        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["b" /* Plugin */])({
+            pluginName: 'BLE',
+            plugin: 'cordova-plugin-ble-central',
+            pluginRef: 'ble',
+            repo: 'https://github.com/don/cordova-plugin-ble-central',
+            platforms: ['iOS', 'Android']
+        }), 
+        __metadata('design:paramtypes', [])
+    ], BLE);
+    return BLE;
+}(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["c" /* IonicNativePlugin */]));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+/* 50 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44741,7 +45526,7 @@ var _a, _b, _c;
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["a"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["b"]; });
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_1__decorators__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util__ = __webpack_require__(51);
 /* unused harmony namespace reexport */
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__ = __webpack_require__(202);
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__ionic_native_plugin__["a"]; });
@@ -44752,7 +45537,7 @@ var _a, _b, _c;
 //# sourceMappingURL=index.js.map
 
 /***/ }),
-/* 49 */
+/* 51 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -44829,7 +45614,7 @@ var cordovaWarn = function (pluginName, method) {
 //# sourceMappingURL=util.js.map
 
 /***/ }),
-/* 50 */
+/* 52 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45080,11 +45865,11 @@ var /** @type {?} */ actionSheetIds = -1;
 //# sourceMappingURL=action-sheet-component.js.map
 
 /***/ }),
-/* 51 */
+/* 53 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__action_sheet_component__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet_transitions__ = __webpack_require__(203);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
@@ -45182,7 +45967,7 @@ function ActionSheet_tsickle_Closure_declarations() {
 //# sourceMappingURL=action-sheet.js.map
 
 /***/ }),
-/* 52 */
+/* 54 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45586,11 +46371,11 @@ var /** @type {?} */ alertIds = -1;
 //# sourceMappingURL=alert-component.js.map
 
 /***/ }),
-/* 53 */
+/* 55 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__alert_component__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert_transitions__ = __webpack_require__(204);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
@@ -45721,7 +46506,7 @@ function Alert_tsickle_Closure_declarations() {
 //# sourceMappingURL=alert.js.map
 
 /***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -45968,7 +46753,7 @@ function IonicApp_tsickle_Closure_declarations() {
 //# sourceMappingURL=app-root.js.map
 
 /***/ }),
-/* 55 */
+/* 57 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46037,7 +46822,7 @@ function Backdrop_tsickle_Closure_declarations() {
 //# sourceMappingURL=backdrop.js.map
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46188,7 +46973,7 @@ function FabList_tsickle_Closure_declarations() {
 //# sourceMappingURL=fab-list.js.map
 
 /***/ }),
-/* 57 */
+/* 59 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46489,7 +47274,7 @@ function Icon_tsickle_Closure_declarations() {
 //# sourceMappingURL=icon.js.map
 
 /***/ }),
-/* 58 */
+/* 60 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -46981,7 +47766,7 @@ var /** @type {?} */ POSITION_BOTTOM = 'bottom';
 //# sourceMappingURL=infinite-scroll.js.map
 
 /***/ }),
-/* 59 */
+/* 61 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47320,7 +48105,7 @@ function removeClone(plt, srcNativeInputEle) {
 //# sourceMappingURL=native-input.js.map
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47373,7 +48158,7 @@ function NextInput_tsickle_Closure_declarations() {
 //# sourceMappingURL=next-input.js.map
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47485,7 +48270,7 @@ function ItemOptions_tsickle_Closure_declarations() {
 //# sourceMappingURL=item-options.js.map
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -47895,7 +48680,7 @@ function ItemReorder_tsickle_Closure_declarations() {
 //# sourceMappingURL=item-reorder.js.map
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48056,7 +48841,7 @@ function Label_tsickle_Closure_declarations() {
 //# sourceMappingURL=label.js.map
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48142,7 +48927,7 @@ function ListHeader_tsickle_Closure_declarations() {
 //# sourceMappingURL=list-header.js.map
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48332,7 +49117,7 @@ function List_tsickle_Closure_declarations() {
 //# sourceMappingURL=list.js.map
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48496,7 +49281,7 @@ var /** @type {?} */ loadingIds = -1;
 //# sourceMappingURL=loading-component.js.map
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48505,7 +49290,7 @@ var /** @type {?} */ loadingIds = -1;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_nav_params__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_module_loader__ = __webpack_require__(96);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalCmp; });
 
 
@@ -48682,7 +49467,7 @@ function ModalCmp_tsickle_Closure_declarations() {
 //# sourceMappingURL=modal-component.js.map
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48768,7 +49553,7 @@ function NavPop_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav-pop.js.map
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -48886,7 +49671,7 @@ function NavPush_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav-push.js.map
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49145,7 +49930,7 @@ function Nav_tsickle_Closure_declarations() {
 //# sourceMappingURL=nav.js.map
 
 /***/ }),
-/* 71 */
+/* 73 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49289,7 +50074,7 @@ function Option_tsickle_Closure_declarations() {
 //# sourceMappingURL=option.js.map
 
 /***/ }),
-/* 72 */
+/* 74 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49784,7 +50569,7 @@ function PickerColumnCmp_tsickle_Closure_declarations() {
 //# sourceMappingURL=picker-column.js.map
 
 /***/ }),
-/* 73 */
+/* 75 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -49796,7 +50581,7 @@ function PickerColumnCmp_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_nav_params__ = __webpack_require__(15);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__picker_column__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__picker_column__ = __webpack_require__(74);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PickerCmp; });
 
 
@@ -50075,7 +50860,7 @@ var /** @type {?} */ pickerIds = -1;
 //# sourceMappingURL=picker-component.js.map
 
 /***/ }),
-/* 74 */
+/* 76 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50141,7 +50926,7 @@ function PickerController_tsickle_Closure_declarations() {
 //# sourceMappingURL=picker-controller.js.map
 
 /***/ }),
-/* 75 */
+/* 77 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50152,7 +50937,7 @@ function PickerController_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__navigation_view_controller__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_module_loader__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__util_module_loader__ = __webpack_require__(96);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverCmp; });
 
 
@@ -50346,7 +51131,7 @@ var /** @type {?} */ popoverIds = -1;
 //# sourceMappingURL=popover-component.js.map
 
 /***/ }),
-/* 76 */
+/* 78 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -50406,13 +51191,13 @@ function Popover_tsickle_Closure_declarations() {
 //# sourceMappingURL=popover.js.map
 
 /***/ }),
-/* 77 */
+/* 79 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(64);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_list_header__ = __webpack_require__(66);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_util__ = __webpack_require__(2);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioGroup; });
 
@@ -50756,7 +51541,7 @@ var /** @type {?} */ radioGroupIds = -1;
 //# sourceMappingURL=radio-group.js.map
 
 /***/ }),
-/* 78 */
+/* 80 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51405,7 +52190,7 @@ var /** @type {?} */ STATE_COMPLETING = 'completing';
 //# sourceMappingURL=refresher.js.map
 
 /***/ }),
-/* 79 */
+/* 81 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51565,7 +52350,7 @@ function SegmentButton_tsickle_Closure_declarations() {
 //# sourceMappingURL=segment-button.js.map
 
 /***/ }),
-/* 80 */
+/* 82 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51645,7 +52430,7 @@ function SelectPopover_tsickle_Closure_declarations() {
 //# sourceMappingURL=select-popover-component.js.map
 
 /***/ }),
-/* 81 */
+/* 83 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51720,7 +52505,7 @@ function DisplayWhen_tsickle_Closure_declarations() {
 //# sourceMappingURL=display-when.js.map
 
 /***/ }),
-/* 82 */
+/* 84 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -51733,7 +52518,7 @@ function DisplayWhen_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_swiper_zoom__ = __webpack_require__(156);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__swiper_swiper__ = __webpack_require__(42);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__swiper_swiper_effects__ = __webpack_require__(86);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slides; });
 var __extends = (this && this.__extends) || (function () {
@@ -53508,13 +54293,13 @@ var /** @type {?} */ slidesId = -1;
 //# sourceMappingURL=slides.js.map
 
 /***/ }),
-/* 83 */
+/* 85 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_a11y__ = __webpack_require__(217);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_pagination__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_pagination__ = __webpack_require__(87);
 /* harmony export (immutable) */ __webpack_exports__["a"] = updateClasses;
 
 
@@ -53606,7 +54391,7 @@ function updateClasses(s) {
 //# sourceMappingURL=swiper-classes.js.map
 
 /***/ }),
-/* 84 */
+/* 86 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -53910,7 +54695,7 @@ var /** @type {?} */ SWIPER_EFFECTS = {
 //# sourceMappingURL=swiper-effects.js.map
 
 /***/ }),
-/* 85 */
+/* 87 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54012,7 +54797,7 @@ function updatePaginationClasses(s) {
 //# sourceMappingURL=swiper-pagination.js.map
 
 /***/ }),
-/* 86 */
+/* 88 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54021,7 +54806,7 @@ function updatePaginationClasses(s) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper_progress__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_index__ = __webpack_require__(40);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_controller__ = __webpack_require__(218);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(84);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_effects__ = __webpack_require__(86);
 /* harmony export (immutable) */ __webpack_exports__["a"] = setWrapperTranslate;
 /* harmony export (immutable) */ __webpack_exports__["c"] = getTranslate;
 /* harmony export (immutable) */ __webpack_exports__["d"] = getWrapperTranslate;
@@ -54184,7 +54969,7 @@ function setWrapperTransition(s, plt, duration, byController) {
 //# sourceMappingURL=swiper-transition.js.map
 
 /***/ }),
-/* 87 */
+/* 89 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54260,7 +55045,7 @@ function TabHighlight_tsickle_Closure_declarations() {
 //# sourceMappingURL=tab-highlight.js.map
 
 /***/ }),
-/* 88 */
+/* 90 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -54274,7 +55059,7 @@ function TabHighlight_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_nav_util__ = __webpack_require__(21);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__split_pane_split_pane__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab_highlight__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tab_highlight__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tabs; });
 var __extends = (this && this.__extends) || (function () {
@@ -54944,7 +55729,7 @@ var /** @type {?} */ tabIds = -1;
 //# sourceMappingURL=tabs.js.map
 
 /***/ }),
-/* 89 */
+/* 91 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55095,7 +55880,7 @@ var /** @type {?} */ toastIds = -1;
 //# sourceMappingURL=toast-component.js.map
 
 /***/ }),
-/* 90 */
+/* 92 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55138,7 +55923,7 @@ function VirtualFooter_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-footer.js.map
 
 /***/ }),
-/* 91 */
+/* 93 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55181,7 +55966,7 @@ function VirtualHeader_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-header.js.map
 
 /***/ }),
-/* 92 */
+/* 94 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55229,7 +56014,7 @@ function VirtualItem_tsickle_Closure_declarations() {
 //# sourceMappingURL=virtual-item.js.map
 
 /***/ }),
-/* 93 */
+/* 95 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55339,7 +56124,7 @@ function SlideEdgeGesture_tsickle_Closure_declarations() {
 //# sourceMappingURL=slide-edge-gesture.js.map
 
 /***/ }),
-/* 94 */
+/* 96 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -55496,7 +56281,7 @@ function setupPreloading(config, deepLinkConfig, moduleLoader, ngZone) {
 //# sourceMappingURL=module-loader.js.map
 
 /***/ }),
-/* 95 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55511,7 +56296,7 @@ var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(37);
 var ObjectUnsubscribedError_1 = __webpack_require__(258);
 var SubjectSubscription_1 = __webpack_require__(238);
-var rxSubscriber_1 = __webpack_require__(96);
+var rxSubscriber_1 = __webpack_require__(98);
 /**
  * @class SubjectSubscriber<T>
  */
@@ -55670,7 +56455,7 @@ exports.AnonymousSubject = AnonymousSubject;
 //# sourceMappingURL=Subject.js.map
 
 /***/ }),
-/* 96 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55682,7 +56467,7 @@ exports.$$rxSubscriber = (typeof Symbol === 'function' && typeof Symbol.for === 
 //# sourceMappingURL=rxSubscriber.js.map
 
 /***/ }),
-/* 97 */
+/* 99 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55692,7 +56477,7 @@ exports.errorObject = { e: {} };
 //# sourceMappingURL=errorObject.js.map
 
 /***/ }),
-/* 98 */
+/* 100 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55701,7 +56486,7 @@ exports.isArray = Array.isArray || (function (x) { return x && typeof x.length =
 //# sourceMappingURL=isArray.js.map
 
 /***/ }),
-/* 99 */
+/* 101 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -55713,7 +56498,7 @@ exports.isFunction = isFunction;
 //# sourceMappingURL=isFunction.js.map
 
 /***/ }),
-/* 100 */
+/* 102 */
 /***/ (function(module, exports) {
 
 function webpackEmptyContext(req) {
@@ -55722,16 +56507,17 @@ function webpackEmptyContext(req) {
 webpackEmptyContext.keys = function() { return []; };
 webpackEmptyContext.resolve = webpackEmptyContext;
 module.exports = webpackEmptyContext;
-webpackEmptyContext.id = 100;
+webpackEmptyContext.id = 102;
 
 
 /***/ }),
-/* 101 */
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(35);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scan_scan__ = __webpack_require__(48);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -55744,15 +56530,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 
 
+
 var HomePage = (function () {
     function HomePage(navCtrl) {
         this.navCtrl = navCtrl;
     }
+    HomePage.prototype.goToScan = function () {
+        this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_2__scan_scan__["a" /* ScanPage */]);
+    };
     return HomePage;
 }());
 HomePage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-home',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n  	<button ion-button menuToggle>\n\n  		<ion-icon name="menu"></ion-icon>\n\n  	</button>\n\n    <ion-title>Setup</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n  Home page\n\n  Version 1\n\n</ion-content>'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\home\home.html"*/
+        selector: 'page-home',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\home\home.html"*/'<ion-header>\n\n  <ion-navbar>\n\n  	<button ion-button menuToggle>\n\n  		<ion-icon name="menu"></ion-icon>\n\n  	</button>\n\n    <ion-title>Home</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding class="card-background-page">\n\n  <!--<p style="background-image:url(\'assets/img/BAM_Logo_RYB.png\');"></p>-->\n\n  \n\n  <ion-grid>\n\n    <ion-row>\n\n      <ion-col style = "height:200px;background-image:url(\'assets/img/BAM_Logo_RYB.png\');background-size:100% 100%;"></ion-col>\n\n    </ion-row>\n\n  </ion-grid>\n\n\n\n  <h2 text-center>Go-Baby-Go Universal Controller</h2>\n\n\n\n  <button ion-button block (click)="goToScan()">Begin</button>\n\n\n\n</ion-content>\n\n\n\n<ion-footer>\n\n  <ion-toolbar>\n\n    <p text-center text-wrap>Created by Team Babies Are Mobile</p>\n\n  </ion-toolbar>\n\n</ion-footer>'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\home\home.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], HomePage);
@@ -55760,764 +56550,11 @@ HomePage = __decorate([
 //# sourceMappingURL=home.js.map
 
 /***/ }),
-/* 102 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(35);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__ = __webpack_require__(103);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__controller_controller__ = __webpack_require__(47);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ScanPage; });
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-var ScanPage = (function () {
-    function ScanPage(ble, navCtrl, navParams) {
-        this.ble = ble;
-        this.navCtrl = navCtrl;
-        this.navParams = navParams;
-        this.devices = [];
-        this.isScanning = false;
-        this.device_id = null;
-        this.service = null;
-        this.characteristic = null;
-    }
-    ScanPage.prototype.ble_scan = function (event) {
-        var _this = this;
-        this.devices = [];
-        this.isScanning = true;
-        this.ble.startScanWithOptions([], { reportDuplicates: false }).subscribe(function (device) {
-            _this.devices.push(device);
-            document.getElementById("state").innerHTML = "Started Scanning...";
-            document.getElementById("action").innerHTML = "startScan()";
-            document.getElementById("data").innerHTML = JSON.stringify(_this.devices);
-            document.getElementById("test").innerHTML = "test";
-        }, function (error) {
-            document.getElementById("state").innerHTML = "ERROR";
-            document.getElementById("action").innerHTML = "ERROR: startScan()";
-            document.getElementById("data").innerHTML = JSON.stringify(_this.devices);
-            document.getElementById("test").innerHTML = "ERROR: " + error;
-        });
-        /*
-        this.ble.startScan([]).subscribe(
-            (device) => {
-                this.devices.push(device);
-                document.getElementById("state").innerHTML = "Started Scanning...";
-                document.getElementById("action").innerHTML = "startScan()";
-                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
-                document.getElementById("test").innerHTML = "test";
-            },
-            (error) => {
-                document.getElementById("state").innerHTML = "ERROR";
-                document.getElementById("action").innerHTML = "ERROR: startScan()";
-                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
-                document.getElementById("test").innerHTML = "ERROR: " + error;
-            }
-        );
-        */
-        setTimeout(function () {
-            _this.ble.stopScan().then(function (success) {
-                document.getElementById("state").innerHTML = "Scan successful";
-                document.getElementById("action").innerHTML = "stopScan()";
-                document.getElementById("test").innerHTML = "SUCCESS: " + success;
-                _this.isScanning = false;
-                for (var i = 0; i < _this.devices.length; i++) {
-                    if (_this.devices[i].name == null) {
-                        _this.devices.splice(i, 1);
-                        document.getElementById("data").innerHTML = JSON.stringify(_this.devices);
-                    }
-                }
-            }, function (reason) {
-                document.getElementById("state").innerHTML = "ERROR: ble_scan.setTimeout()";
-                document.getElementById("action").innerHTML = "stopScan()";
-                document.getElementById("test").innerHTML = "ERROR: " + reason;
-                _this.isScanning = false;
-            });
-        }, 3000);
-    };
-    ScanPage.prototype.connect = function (device) {
-        var _this = this;
-        document.getElementById("state").innerHTML = "Attempting to connect... [" + device.id + "]";
-        this.ble.connect(device.id).subscribe(function (success) {
-            _this.device_id = device.id;
-            _this.get_IDs(success);
-            document.getElementById("state").innerHTML = "Connected";
-            document.getElementById("action").innerHTML = "connect(device)";
-            document.getElementById("test").innerHTML = "SUCCESS: " + success;
-        }, function (reason) {
-            document.getElementById("state").innerHTML = "ERROR";
-            document.getElementById("action").innerHTML = "connect(device)";
-            document.getElementById("test").innerHTML = "ERROR: " + reason;
-        });
-    };
-    // Parse through the connected object and get the serviceUUID and characteristicUUID of the device
-    ScanPage.prototype.get_IDs = function (device) {
-        var _this = this;
-        // Look at each service ID value in the list of offered services...
-        device.services.forEach(function (service) {
-            // For each characteristic object (item) in the list of characteristics...
-            device.characteristics.forEach(function (item) {
-                // If the characteristic's service ID matches one of the offered services
-                if (item.service == service) {
-                    // Find out if the properties of the characteristic containing "WriteWithoutResponse"
-                    item.properties.forEach(function (property) {
-                        // If the characteristic contains the "WriteWithoutResponse"
-                        if (property == "WriteWithoutResponse") {
-                            // Save the characteristic and service UUIDs
-                            _this.service = item.service;
-                            _this.characteristic = item.characteristic;
-                        }
-                    });
-                }
-            });
-        });
-        document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
-    };
-    /*
-    Device Object:
-
-        Android:
-            {
-                "name": "",
-                "id": "",
-                "advertising": {},
-                "rssi": -0,
-                "services":["","","ffe0"],	// use this: for each (service = device.services) -> for each ([service])
-                "characteristics":				// device.characteristics -> [{},{},..}].item -> {}.service === devices
-                    [
-                        {	// This is the one we need
-                            "service": "ffe0",
-                            "characteristic": "ffe1",
-                            "properties": ["Read","WriteWithoutResponse","Notify"],
-                            // optional:
-                            "descriptors": [{"uuid": ""}, {"uuid": ""}]
-                        },
-                        {
-                            "service": "",
-                            "characteristic": "",
-                            "properties": ["","",""],
-                        },
-                        .
-                        .
-                        .
-                    ]
-            }
-
-        iOS:
-            {
-                "characteristics":
-                    [
-                        {	// this is the one we want
-                            "properites": ["Read", "WriteWithoutResponse", "Notify"],
-                            "isNotifying": false,
-                            "characteristic": "FFE1",
-                            "service": "FFE0"
-                        },
-                        {
-                            "properties": ["", ""],
-                            "isNotifying": boolean,
-                            "characteristic": "",
-                            "service": ""
-                        },
-                        .
-                        .
-                        .
-                    ],
-                "id": "",
-                "rssi": -0,
-                "advertising":
-                    {
-                        "kCBAdvDataLocalName": "",
-                        "kCBAdvDataServiceUUIDs": [""],	// could be useful, but doesn't exist in android object
-                        "kCBAdvDataTxPowerLevel": 0,
-                        "kCBAdvDataIsConnectable": boolean
-                    },
-                "name": "",
-                "services": ["","ffe0"]	// use this: for each (service = device.services) -> for each (["service"])
-                                            // device.characteristics -> [{},{},...].item -> {}.service == service
-            }
-    */
-    ScanPage.prototype.disconnect = function (event) {
-        var _this = this;
-        document.getElementById("state").innerHTML = "Attempting to disconnect...";
-        this.ble.disconnect(this.device_id).then(function (success) {
-            _this.device_id = null;
-            _this.service = null;
-            _this.characteristic = null;
-            document.getElementById("state").innerHTML = "Disconnected";
-            document.getElementById("action").innerHTML = "disconnect()";
-            document.getElementById("data").innerHTML = "device_id: " + _this.device_id + ", service: " + _this.service + ", characteristic: " + _this.characteristic;
-            document.getElementById("test").innerHTML = "SUCCESS: " + success;
-        }, function (reason) {
-            document.getElementById("state").innerHTML = "ERROR";
-            document.getElementById("action").innerHTML = "disconnect()";
-            document.getElementById("test").innerHTML = "ERROR: " + reason;
-        });
-    };
-    ScanPage.prototype.goToController = function (event) {
-        if (this.device_id != null) {
-            this.navCtrl.push(__WEBPACK_IMPORTED_MODULE_3__controller_controller__["a" /* ControllerPage */], {
-                device_id: this.device_id,
-                service: this.service,
-                characteristic: this.characteristic
-            });
-        }
-    };
-    return ScanPage;
-}());
-ScanPage = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-scan',template:/*ion-inline-start:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\scan\scan.html"*/'<ion-header>\n\n  <ion-navbar>\n\n  	<button ion-button menuToggle>\n\n  		<ion-icon name="menu"></ion-icon>\n\n  	</button>\n\n    <ion-title>Connect to Car</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content padding>\n\n    <h4>Scan for the Bluetooth Module</h4>\n\n    <p>Version 29</p>\n\n    <button ion-button icon-left block large (click)="ble_scan()">\n\n      <ion-icon name="bluetooth"></ion-icon>\n\n      Scan\n\n    </button>\n\n\n\n    <p>\n\n      <button ion-button block large color="secondary" (click)="disconnect()">Disconnect</button>\n\n    </p>\n\n\n\n    <p>\n\n      <button ion-button block large color="secondary" (click)="goToController()">Go</button>\n\n    </p>\n\n\n\n    <ion-card *ngIf="devices.length">\n\n\n\n      <ion-card-header>\n\n        Discovered Devices\n\n      </ion-card-header>\n\n      \n\n      <ion-list>\n\n\n\n        <ion-item *ngFor="let device of devices" >\n\n          <ion-label>\n\n            {{device.name}}\n\n          </ion-label>\n\n          <div item-content>\n\n            <button ion-button color="secondary" (click)="connect(device)">Connect</button>\n\n          </div>\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n      \n\n    </ion-card>\n\n\n\n    <!-- Why the F*** doesn\'t this work?!! >:( -->\n\n    <!--<ion-spinner *ngIf="isScanning==true" name="circles"></ion-spinner>-->\n\n\n\n    \n\n\n\n    <p id="state">state</p>\n\n    <p id="action">action</p>\n\n    <p id="data">data</p>\n\n    <p id="test">test</p>\n\n</ion-content>'/*ion-inline-end:"C:\Users\lvloc\Documents\IonicApps\GoBabyGoUniversalController\src\pages\scan\scan.html"*/
-    }),
-    __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__ionic_native_ble__["a" /* BLE */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */],
-        __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavParams */]])
-], ScanPage);
-
-//# sourceMappingURL=scan.js.map
-
-/***/ }),
-/* 103 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(48);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(10);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BLE; });
-var __extends = (this && this.__extends) || function (d, b) {
-    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
-    function __() { this.constructor = d; }
-    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
-};
-var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (this && this.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-/**
- * @name BLE
- * @description
- * This plugin enables communication between a phone and Bluetooth Low Energy (BLE) peripherals.
- *
- * The plugin provides a simple JavaScript API for iOS and Android.
- *
- * - Scan for peripherals
- * - Connect to a peripheral
- * - Read the value of a characteristic
- * - Write new value to a characteristic
- * - Get notified when characteristic's value changes
- *
- * Advertising information is returned when scanning for peripherals. Service, characteristic, and property info is returned when connecting to a peripheral. All access is via service and characteristic UUIDs. The plugin manages handles internally.
- *
- * Simultaneous connections to multiple peripherals are supported.
- *
- * @usage
- *
- * ```typescript
- *
- * import { BLE } from '@ionic-native/ble';
- *
- * constructor(private ble: BLE) { }
- *
- * ```
- *
- * ## Peripheral Data
- *
- * Peripheral Data is passed to the success callback when scanning and connecting. Limited data is passed when scanning.
- *
- * ```typescript
- *   {
- *       "name": "Battery Demo",
- *       "id": "20:FF:D0:FF:D1:C0",
- *       "advertising": [2,1,6,3,3,15,24,8,9,66,97,116,116,101,114,121],
- *       "rssi": -55
- *   }
- * ```
- * After connecting, the peripheral object also includes service, characteristic and descriptor information.
- *
- * ```typescript
- *   {
- *       "name": "Battery Demo",
- *       "id": "20:FF:D0:FF:D1:C0",
- *       "advertising": [2,1,6,3,3,15,24,8,9,66,97,116,116,101,114,121],
- *       "rssi": -55,
- *       "services": [
- *           "1800",
- *           "1801",
- *           "180f"
- *       ],
- *       "characteristics": [
- *           {
- *               "service": "1800",
- *               "characteristic": "2a00",
- *               "properties": [
- *                   "Read"
- *               ]
- *           },
- *           {
- *               "service": "1800",
- *               "characteristic": "2a01",
- *               "properties": [
- *                   "Read"
- *               ]
- *           },
- *           {
- *               "service": "1801",
- *               "characteristic": "2a05",
- *               "properties": [
- *                   "Read"
- *               ]
- *           },
- *           {
- *               "service": "180f",
- *               "characteristic": "2a19",
- *               "properties": [
- *                   "Read"
- *               ],
- *               "descriptors": [
- *                   {
- *                       "uuid": "2901"
- *                   },
- *                   {
- *                       "uuid": "2904"
- *                   }
- *               ]
- *           }
- *       ]
- *   }
- * ```
- *
- * ## Advertising Data
- * Bluetooth advertising data is returned in when scanning for devices. The format format varies depending on your platform. On Android advertising data will be the raw advertising bytes. iOS does not allow access to raw advertising data, so a dictionary of data is returned.
- *
- * The advertising information for both Android and iOS appears to be a combination of advertising data and scan response data.
- *
- * ### Android
- *
- * ```typescript
- *   {
- *       "name": "demo",
- *       "id": "00:1A:7D:DA:71:13",
- *       "advertising": ArrayBuffer,
- *      "rssi": -37
- *  }
- * ```
- *
- * Convert the advertising info to a Uint8Array for processing. `var adData = new Uint8Array(peripheral.advertising)`
- *
- * ### iOS
- *
- * Note that iOS uses the string value of the constants for the [Advertisement Data Retrieval Keys](https://developer.apple.com/library/ios/documentation/CoreBluetooth/Reference/CBCentralManagerDelegate_Protocol/index.html#//apple_ref/doc/constant_group/Advertisement_Data_Retrieval_Keys). This will likely change in the future.
- *
- * ```typescript
- *   {
- *       "name": "demo",
- *       "id": "D8479A4F-7517-BCD3-91B5-3302B2F81802",
- *       "advertising": {
- *           "kCBAdvDataChannel": 37,
- *           "kCBAdvDataServiceData": {
- *               "FED8": {
- *                   "byteLength": 7 // data not shown
- *               }
- *           },
- *           "kCBAdvDataLocalName": "demo",
- *           "kCBAdvDataServiceUUIDs": ["FED8"],
- *           "kCBAdvDataManufacturerData": {
- *               "byteLength": 7  // data not shown
- *           },
- *           "kCBAdvDataTxPowerLevel": 32,
- *           "kCBAdvDataIsConnectable": true
- *       },
- *       "rssi": -53
- *   }
- * ```
- *
- * ## Typed Arrays
- *
- * This plugin uses typed Arrays or ArrayBuffers for sending and receiving data.
- *
- * This means that you need convert your data to ArrayBuffers before sending and from ArrayBuffers when receiving.
- *
- * ```typescript
- *   // ASCII only
- *   function stringToBytes(string) {
- *      var array = new Uint8Array(string.length);
- *      for (var i = 0, l = string.length; i < l; i++) {
- *          array[i] = string.charCodeAt(i);
- *       }
- *       return array.buffer;
- *   }
- *
- *   // ASCII only
- *   function bytesToString(buffer) {
- *       return String.fromCharCode.apply(null, new Uint8Array(buffer));
- *   }
- * ```
- * You can read more about typed arrays in these articles on [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays) and [HTML5 Rocks](http://www.html5rocks.com/en/tutorials/webgl/typed_arrays/).
- *
- * ## UUIDs
- *
- * UUIDs are always strings and not numbers. Some 16-bit UUIDs, such as '2220' look like integers, but they're not. (The integer 2220 is 0x8AC in hex.) This isn't a problem with 128 bit UUIDs since they look like strings 82b9e6e1-593a-456f-be9b-9215160ebcac. All 16-bit UUIDs should also be passed to methods as strings.
- *
- */
-var BLE = (function (_super) {
-    __extends(BLE, _super);
-    function BLE() {
-        _super.apply(this, arguments);
-    }
-    /**
-     * Scan and discover BLE peripherals for the specified amount of time.
-     *
-     * @usage
-     * ```
-     * BLE.scan([], 5).subscribe(device => {
-     *   console.log(JSON.stringify(device));
-     * });
-     * ```
-     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
-     * @param {number} seconds  Number of seconds to run discovery
-     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral that is discovered during the specified time.
-     */
-    BLE.prototype.scan = function (services, seconds) { return; };
-    /**
-     * Scan and discover BLE peripherals until `stopScan` is called.
-     *
-     * @usage
-     * ```
-     * BLE.startScan([]).subscribe(device => {
-     *   console.log(JSON.stringify(device));
-     * });
-     *
-     * setTimeout(() => {
-     *   BLE.stopScan();
-     * }, 5000);
-     * ```
-     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
-     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral discovered.
-     */
-    BLE.prototype.startScan = function (services) { return; };
-    /**
-     * Scans for BLE devices. This function operates similarly to the `startScan` function, but allows you to specify extra options (like allowing duplicate device reports).
-     * @param {string[]} services  List of service UUIDs to discover, or `[]` to find all devices
-     * @param options {any}
-     * @returns {Observable<any>} Returns an Observable that notifies of each peripheral discovered.
-     */
-    BLE.prototype.startScanWithOptions = function (services, options) { return; };
-    /**
-     * Stop a scan started by `startScan`.
-     *
-     * @usage
-     * ```
-     * BLE.startScan([]).subscribe(device => {
-     *   console.log(JSON.stringify(device));
-     * });
-     * setTimeout(() => {
-     *   BLE.stopScan().then(() => { console.log('scan stopped'); });
-     * }, 5000);
-     * ```
-     * @return returns a Promise.
-     */
-    BLE.prototype.stopScan = function () { return; };
-    /**
-     * Connect to a peripheral.
-     * @usage
-     * ```
-     *   BLE.connect('12:34:56:78:9A:BC').subscribe(peripheralData => {
-     *     console.log(peripheralData);
-     *   },
-     *   peripheralData => {
-     *     console.log('disconnected');
-     *   });
-     * ```
-     * @param deviceId {string}  UUID or MAC address of the peripheral
-     * @return Returns an Observable that notifies of connect/disconnect.
-     */
-    BLE.prototype.connect = function (deviceId) { return; };
-    /**
-     * Disconnect from a peripheral.
-     * @usage
-     * ```
-     *   BLE.disconnect('12:34:56:78:9A:BC').then(() => {
-     *     console.log('Disconnected');
-     *   });
-     * ```
-     * @param deviceId {string}  UUID or MAC address of the peripheral
-     * @return Returns a Promise
-     */
-    BLE.prototype.disconnect = function (deviceId) { return; };
-    /**
-     * Read the value of a characteristic.
-     *
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @param {string} serviceUUID  UUID of the BLE service
-     * @param {string} characteristicUUID  UUID of the BLE characteristic
-     * @return Returns a Promise
-     */
-    BLE.prototype.read = function (deviceId, serviceUUID, characteristicUUID) { return; };
-    ;
-    /**
-     * Write the value of a characteristic.
-     * @usage
-     * ```
-     * // send 1 byte to switch a light on
-     * var data = new Uint8Array(1);
-     * data[0] = 1;
-     * BLE.write(device_id, "FF10", "FF11", data.buffer);
-     *
-     * // send a 3 byte value with RGB color
-     * var data = new Uint8Array(3);
-     * data[0] = 0xFF;  // red
-     * data[0] = 0x00; // green
-     * data[0] = 0xFF; // blue
-     * BLE.write(device_id, "ccc0", "ccc1", data.buffer);
-     *
-     * // send a 32 bit integer
-     * var data = new Uint32Array(1);
-     * data[0] = counterInput.value;
-     * BLE.write(device_id, SERVICE, CHARACTERISTIC, data.buffer);
-     *
-     * ```
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @param {string} serviceUUID  UUID of the BLE service
-     * @param {string} characteristicUUID  UUID of the BLE characteristic
-     * @param {ArrayBuffer} value  Data to write to the characteristic, as an ArrayBuffer.
-     * @return Returns a Promise
-     */
-    BLE.prototype.write = function (deviceId, serviceUUID, characteristicUUID, value) { return; };
-    /**
-     * Write the value of a characteristic without waiting for confirmation from the peripheral.
-     *
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @param {string} serviceUUID  UUID of the BLE service
-     * @param {string} characteristicUUID  UUID of the BLE characteristic
-     * @param {ArrayBuffer} value  Data to write to the characteristic, as an ArrayBuffer.
-     * @return Returns a Promise
-     */
-    BLE.prototype.writeWithoutResponse = function (deviceId, serviceUUID, characteristicUUID, value) { return; };
-    /**
-     * Register to be notified when the value of a characteristic changes.
-     *
-     * @usage
-     * ```
-     * BLE.startNotification(device_id, "FF10", "FF11").subscribe(buffer => {
-     *   console.log(String.fromCharCode.apply(null, new Uint8Array(buffer));
-     * });
-     * ```
-     *
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @param {string} serviceUUID  UUID of the BLE service
-     * @param {string} characteristicUUID  UUID of the BLE characteristic
-     * @return Returns an Observable that notifies of characteristic changes.
-     */
-    BLE.prototype.startNotification = function (deviceId, serviceUUID, characteristicUUID) { return; };
-    /**
-     * Stop being notified when the value of a characteristic changes.
-     *
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @param {string} serviceUUID  UUID of the BLE service
-     * @param {string} characteristicUUID  UUID of the BLE characteristic
-     * @returns {Promise<any>}
-     */
-    BLE.prototype.stopNotification = function (deviceId, serviceUUID, characteristicUUID) { return; };
-    /**
-     * Report the connection status.
-     *
-     * @usage
-     * ```
-     * BLE.isConnected('FFCA0B09-CB1D-4DC0-A1EF-31AFD3EDFB53').then(
-     *   () => { console.log('connected'); },
-     *   () => { console.log('not connected'); }
-     * );
-     * ```
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     * @returns {Promise<any>}
-     */
-    BLE.prototype.isConnected = function (deviceId) { return; };
-    /**
-     * Report if bluetooth is enabled.
-     *
-     * @returns {Promise<void>} Returns a Promise that resolves if Bluetooth is enabled, and rejects if disabled.
-     */
-    BLE.prototype.isEnabled = function () { return; };
-    /**
-     * Open System Bluetooth settings (Android only).
-     *
-     * @returns {Promise<any>}
-     */
-    BLE.prototype.showBluetoothSettings = function () { return; };
-    /**
-     * Enable Bluetooth on the device (Android only).
-     *
-     * @returns {Promise<any>}
-     */
-    BLE.prototype.enable = function () { return; };
-    /**
-     * Read the RSSI value on the device connection.
-     *
-     * @param {string} deviceId  UUID or MAC address of the peripheral
-     *
-     *@returns {Promise<any>}
-     */
-    BLE.readRSSI = function (deviceId) { return; };
-    BLE.decorators = [
-        { type: __WEBPACK_IMPORTED_MODULE_0__angular_core__["l" /* Injectable */] },
-    ];
-    /** @nocollapse */
-    BLE.ctorParameters = function () { return []; };
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
-            observable: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [Array, Number]), 
-        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
-    ], BLE.prototype, "scan", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
-            observable: true,
-            clearFunction: 'stopScan',
-            clearWithArgs: false
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [Array]), 
-        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
-    ], BLE.prototype, "startScan", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
-            observable: true,
-            clearFunction: 'stopScan',
-            clearWithArgs: false
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [Array, Object]), 
-        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
-    ], BLE.prototype, "startScanWithOptions", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "stopScan", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
-            observable: true,
-            clearFunction: 'disconnect',
-            clearWithArgs: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
-        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
-    ], BLE.prototype, "connect", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "disconnect", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String, String, String]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "read", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String, String, String, ArrayBuffer]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "write", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String, String, String, ArrayBuffer]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "writeWithoutResponse", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])({
-            observable: true,
-            clearFunction: 'stopNotification',
-            clearWithArgs: true
-        }), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String, String, String]), 
-        __metadata('design:returntype', __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__["Observable"])
-    ], BLE.prototype, "startNotification", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String, String, String]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "stopNotification", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "isConnected", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "isEnabled", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "showBluetoothSettings", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', []), 
-        __metadata('design:returntype', Promise)
-    ], BLE.prototype, "enable", null);
-    __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["a" /* Cordova */])(), 
-        __metadata('design:type', Function), 
-        __metadata('design:paramtypes', [String]), 
-        __metadata('design:returntype', Promise)
-    ], BLE, "readRSSI", null);
-    BLE = __decorate([
-        __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["b" /* Plugin */])({
-            pluginName: 'BLE',
-            plugin: 'cordova-plugin-ble-central',
-            pluginRef: 'ble',
-            repo: 'https://github.com/don/cordova-plugin-ble-central',
-            platforms: ['iOS', 'Android']
-        }), 
-        __metadata('design:paramtypes', [])
-    ], BLE);
-    return BLE;
-}(__WEBPACK_IMPORTED_MODULE_1__ionic_native_core__["c" /* IonicNativePlugin */]));
-//# sourceMappingURL=index.js.map
-
-/***/ }),
 /* 104 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bootstrap__ = __webpack_require__(200);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
@@ -56834,7 +56871,7 @@ function wrapInstance(pluginObj, methodName, opts) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(50);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SplashScreen; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -56914,7 +56951,7 @@ var SplashScreen = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(48);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ionic_native_core__ = __webpack_require__(50);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return StatusBar; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -57110,7 +57147,7 @@ var StatusBar = (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__action_sheet__ = __webpack_require__(53);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ActionSheetController; });
@@ -57319,7 +57356,7 @@ function ActionSheetController_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__alert__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AlertController; });
@@ -58414,7 +58451,7 @@ function Chip_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_picker_controller__ = __webpack_require__(76);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_form__ = __webpack_require__(16);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_base_input__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_item__ = __webpack_require__(17);
@@ -59348,7 +59385,7 @@ var /** @type {?} */ DEFAULT_FORMAT = 'MMM D, YYYY';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_ui_event_manager__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__fab__ = __webpack_require__(39);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__fab_list__ = __webpack_require__(58);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return FabContainer; });
 
 
@@ -60847,7 +60884,7 @@ function getUnitValue(val) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__infinite_scroll__ = __webpack_require__(60);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InfiniteScrollContent; });
 
 
@@ -60945,8 +60982,8 @@ function InfiniteScrollContent_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__item_item__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_input__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__next_input__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__native_input__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__next_input__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__navigation_nav_controller__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_platform__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TextInput; });
@@ -62270,10 +62307,10 @@ function findReorderItem(node, listNode) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__item__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__list_list__ = __webpack_require__(67);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_dom_controller__ = __webpack_require__(8);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_options__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__item_options__ = __webpack_require__(63);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ItemSliding; });
 
 
@@ -63023,7 +63060,7 @@ function LoadingController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__loading_component__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__loading_transitions__ = __webpack_require__(208);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Loading; });
@@ -63450,7 +63487,7 @@ function MenuToggle_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__backdrop_backdrop__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__content_content__ = __webpack_require__(19);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__platform_dom_controller__ = __webpack_require__(8);
@@ -63459,7 +63496,7 @@ function MenuToggle_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_keyboard__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__menu_gestures__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__app_menu_controller__ = __webpack_require__(23);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(70);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__nav_nav__ = __webpack_require__(72);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__gestures_ui_event_manager__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__split_pane_split_pane__ = __webpack_require__(33);
@@ -64592,7 +64629,7 @@ function Modal_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_pop__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__nav_pop__ = __webpack_require__(70);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavPopAnchor; });
 
 
@@ -64675,7 +64712,7 @@ function NavPopAnchor_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__navigation_deep_linker__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_push__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__nav_push__ = __webpack_require__(71);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return NavPushAnchor; });
 
 
@@ -64834,7 +64871,7 @@ function Note_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__picker_component__ = __webpack_require__(75);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__picker_transitions__ = __webpack_require__(214);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Picker; });
@@ -64965,7 +65002,7 @@ function Picker_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__popover__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverController; });
 
@@ -65139,7 +65176,7 @@ function PopoverController_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ion__ = __webpack_require__(4);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__item_item__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__radio_group__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__radio_group__ = __webpack_require__(79);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RadioButton; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -66288,7 +66325,7 @@ function Range_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__config_config__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__refresher__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__refresher__ = __webpack_require__(80);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RefresherContent; });
 
 
@@ -67095,7 +67132,7 @@ function Searchbar_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__util_base_input__ = __webpack_require__(26);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__segment_button__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__segment_button__ = __webpack_require__(81);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Segment; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -67255,9 +67292,9 @@ function Segment_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__(13);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(51);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(53);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_popover__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__action_sheet_action_sheet__ = __webpack_require__(53);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__alert_alert__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__popover_popover__ = __webpack_require__(78);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_app__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
@@ -67266,8 +67303,8 @@ function Segment_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__navigation_nav_controller__ = __webpack_require__(18);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__option_option__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__select_popover_component__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__option_option__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__select_popover_component__ = __webpack_require__(82);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Select; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -67817,7 +67854,7 @@ function Select_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__display_when__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__display_when__ = __webpack_require__(83);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HideWhen; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -67919,7 +67956,7 @@ function HideWhen_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__display_when__ = __webpack_require__(81);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__display_when__ = __webpack_require__(83);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__platform_platform__ = __webpack_require__(3);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ShowWhen; });
 var __extends = (this && this.__extends) || (function () {
@@ -68023,7 +68060,7 @@ function ShowWhen_tsickle_Closure_declarations() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slides__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__slides__ = __webpack_require__(84);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Slide; });
 
 
@@ -68181,7 +68218,7 @@ function parallaxSetTransition(s, duration) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(88);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initZoom;
 /* harmony export (immutable) */ __webpack_exports__["b"] = resetZoomEvents;
 
@@ -69209,7 +69246,7 @@ function TabButton_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__platform_keyboard__ = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__navigation_nav_controller_base__ = __webpack_require__(45);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__platform_platform__ = __webpack_require__(3);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tabs__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__tabs__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__transitions_transition_controller__ = __webpack_require__(46);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Tab; });
 var __extends = (this && this.__extends) || (function () {
@@ -69889,7 +69926,7 @@ function ToastController_tsickle_Closure_declarations() {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_component__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__toast_component__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__toast_transitions__ = __webpack_require__(221);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Toast; });
@@ -70910,9 +70947,9 @@ function Typography_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_view_controller__ = __webpack_require__(5);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__virtual_item__ = __webpack_require__(92);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__virtual_footer__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__virtual_header__ = __webpack_require__(91);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__virtual_item__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__virtual_footer__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__virtual_header__ = __webpack_require__(93);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VirtualScroll; });
 
 
@@ -74788,7 +74825,7 @@ exports.isScheduler = isScheduler;
 "use strict";
 
 var root_1 = __webpack_require__(30);
-var isArray_1 = __webpack_require__(98);
+var isArray_1 = __webpack_require__(100);
 var isPromise_1 = __webpack_require__(260);
 var isObject_1 = __webpack_require__(190);
 var Observable_1 = __webpack_require__(10);
@@ -74871,7 +74908,7 @@ exports.subscribeToResult = subscribeToResult;
 
 "use strict";
 
-var errorObject_1 = __webpack_require__(97);
+var errorObject_1 = __webpack_require__(99);
 var tryCatchTarget;
 function tryCatcher() {
     try {
@@ -74940,11 +74977,11 @@ webpackEmptyContext.id = 195;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(105);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ionic_native_status_bar__ = __webpack_require__(106);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_ble__ = __webpack_require__(103);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ionic_native_ble__ = __webpack_require__(49);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__app_component__ = __webpack_require__(198);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_home_home__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_controller_controller__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_scan_scan__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_scan_scan__ = __webpack_require__(48);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -75192,9 +75229,9 @@ var platformBrowserDynamic = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(35);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(106);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(105);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(101);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(103);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_controller_controller__ = __webpack_require__(47);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_scan_scan__ = __webpack_require__(102);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_scan_scan__ = __webpack_require__(48);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -75224,7 +75261,7 @@ var MyApp = (function () {
             splashScreen.hide();
         });
         this.pages = [
-            { title: 'Setup', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
+            { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
             { title: 'Connect to Car', component: __WEBPACK_IMPORTED_MODULE_6__pages_scan_scan__["a" /* ScanPage */] },
             { title: 'Car Controller', component: __WEBPACK_IMPORTED_MODULE_5__pages_controller_controller__["a" /* ControllerPage */] }
         ];
@@ -101378,7 +101415,7 @@ function checkReady() {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__plugin__ = __webpack_require__(104);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(49);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__util__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_rxjs_Observable___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_rxjs_Observable__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_rxjs_observable_throw__ = __webpack_require__(251);
@@ -102672,7 +102709,7 @@ var LoadingWpPopOut = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_slide_edge_gesture__ = __webpack_require__(95);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MenuContentGesture; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -103032,7 +103069,7 @@ __WEBPACK_IMPORTED_MODULE_1__app_menu_controller__["a" /* MenuController */].reg
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_app_constants__ = __webpack_require__(31);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__modal_component__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__modal_transitions__ = __webpack_require__(212);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ModalImpl; });
@@ -103347,7 +103384,7 @@ var PickerSlideOut = (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__popover_component__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__popover_transitions__ = __webpack_require__(216);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__navigation_view_controller__ = __webpack_require__(5);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PopoverImpl; });
@@ -103968,12 +104005,12 @@ var /** @type {?} */ SWIPER_CONTROLLER = {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__swiper_utils__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(86);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__swiper_transition__ = __webpack_require__(88);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__swiper__ = __webpack_require__(42);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__swiper_progress__ = __webpack_require__(41);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__swiper_index__ = __webpack_require__(40);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(85);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(83);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__swiper_pagination__ = __webpack_require__(87);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__swiper_classes__ = __webpack_require__(85);
 /* harmony export (immutable) */ __webpack_exports__["a"] = initEvents;
 
 
@@ -108276,7 +108313,7 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser__ = __webpack_require__(27);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_forms__ = __webpack_require__(13);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_app_app__ = __webpack_require__(6);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(54);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_app_app_root__ = __webpack_require__(56);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__config_config__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__navigation_deep_linker__ = __webpack_require__(14);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__platform_dom_controller__ = __webpack_require__(8);
@@ -108286,7 +108323,7 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gestures_gesture_config__ = __webpack_require__(172);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__tap_click_haptic__ = __webpack_require__(36);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__platform_keyboard__ = __webpack_require__(24);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(94);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__util_module_loader__ = __webpack_require__(96);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__util_ng_module_loader__ = __webpack_require__(184);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__platform_platform__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__platform_platform_registry__ = __webpack_require__(177);
@@ -108294,14 +108331,14 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__config_mode_registry__ = __webpack_require__(171);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__transitions_transition_controller__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__navigation_url_serializer__ = __webpack_require__(176);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_action_sheet_action_sheet_component__ = __webpack_require__(52);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_action_sheet_action_sheet_controller__ = __webpack_require__(107);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_alert_alert_component__ = __webpack_require__(54);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_alert_alert_controller__ = __webpack_require__(108);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_app_click_block__ = __webpack_require__(205);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_app_overlay_portal__ = __webpack_require__(109);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_avatar_avatar__ = __webpack_require__(110);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(55);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_backdrop_backdrop__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_badge_badge__ = __webpack_require__(111);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_button_button__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_card_card__ = __webpack_require__(115);
@@ -108314,72 +108351,72 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_datetime_datetime__ = __webpack_require__(118);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_fab_fab__ = __webpack_require__(39);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_fab_fab_container__ = __webpack_require__(119);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(56);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_fab_fab_list__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_grid_col__ = __webpack_require__(120);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__components_grid_grid__ = __webpack_require__(121);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_46__components_grid_row__ = __webpack_require__(122);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_47__components_icon_icon__ = __webpack_require__(59);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_48__components_img_img__ = __webpack_require__(123);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_49__components_infinite_scroll_infinite_scroll__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_50__components_infinite_scroll_infinite_scroll_content__ = __webpack_require__(124);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_native_input__ = __webpack_require__(59);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_input_next_input__ = __webpack_require__(60);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_51__components_input_native_input__ = __webpack_require__(61);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_52__components_input_next_input__ = __webpack_require__(62);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_53__components_input_input__ = __webpack_require__(125);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_54__components_item_item__ = __webpack_require__(17);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_55__components_item_item_content__ = __webpack_require__(126);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_56__components_item_item_divider__ = __webpack_require__(127);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_57__components_item_item_group__ = __webpack_require__(128);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_options__ = __webpack_require__(61);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_item_reorder__ = __webpack_require__(62);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_58__components_item_item_options__ = __webpack_require__(63);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_59__components_item_item_reorder__ = __webpack_require__(64);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_60__components_item_item_sliding__ = __webpack_require__(130);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_61__components_item_reorder__ = __webpack_require__(131);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_label_label__ = __webpack_require__(63);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_list_list__ = __webpack_require__(65);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_list_list_header__ = __webpack_require__(64);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_loading_loading_component__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_62__components_label_label__ = __webpack_require__(65);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_63__components_list_list__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_64__components_list_list_header__ = __webpack_require__(66);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_65__components_loading_loading_component__ = __webpack_require__(68);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_66__components_loading_loading_controller__ = __webpack_require__(132);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_67__components_menu_menu__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_68__components_menu_menu_close__ = __webpack_require__(134);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_69__components_app_menu_controller__ = __webpack_require__(23);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_70__components_menu_menu_toggle__ = __webpack_require__(135);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_modal_modal_component__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_71__components_modal_modal_component__ = __webpack_require__(69);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_72__components_modal_modal_controller__ = __webpack_require__(137);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav__ = __webpack_require__(70);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_pop__ = __webpack_require__(68);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_73__components_nav_nav__ = __webpack_require__(72);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_74__components_nav_nav_pop__ = __webpack_require__(70);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_75__components_nav_nav_pop_anchor__ = __webpack_require__(139);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_nav_nav_push__ = __webpack_require__(69);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_76__components_nav_nav_push__ = __webpack_require__(71);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_77__components_nav_nav_push_anchor__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_78__components_note_note__ = __webpack_require__(141);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_option_option__ = __webpack_require__(71);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_component__ = __webpack_require__(73);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_picker_picker_column__ = __webpack_require__(72);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_picker_picker_controller__ = __webpack_require__(74);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_popover_popover_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_79__components_option_option__ = __webpack_require__(73);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_80__components_picker_picker_component__ = __webpack_require__(75);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_81__components_picker_picker_column__ = __webpack_require__(74);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_82__components_picker_picker_controller__ = __webpack_require__(76);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_83__components_popover_popover_component__ = __webpack_require__(77);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_84__components_popover_popover_controller__ = __webpack_require__(143);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_85__components_radio_radio_button__ = __webpack_require__(144);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_radio_radio_group__ = __webpack_require__(77);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_86__components_radio_radio_group__ = __webpack_require__(79);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_87__components_range_range__ = __webpack_require__(146);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_88__components_range_range_knob__ = __webpack_require__(145);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_refresher_refresher__ = __webpack_require__(78);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_89__components_refresher_refresher__ = __webpack_require__(80);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_90__components_refresher_refresher_content__ = __webpack_require__(147);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_91__components_scroll_scroll__ = __webpack_require__(148);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_92__components_searchbar_searchbar__ = __webpack_require__(149);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_93__components_segment_segment__ = __webpack_require__(150);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_94__components_select_select__ = __webpack_require__(151);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_select_select_popover_component__ = __webpack_require__(80);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_segment_segment_button__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_95__components_select_select_popover_component__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_96__components_segment_segment_button__ = __webpack_require__(81);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_97__components_show_hide_when_show_when__ = __webpack_require__(153);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_98__components_show_hide_when_hide_when__ = __webpack_require__(152);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_99__components_slides_slide__ = __webpack_require__(154);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_slides_slides__ = __webpack_require__(82);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_100__components_slides_slides__ = __webpack_require__(84);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_101__components_spinner_spinner__ = __webpack_require__(157);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_102__components_split_pane_split_pane__ = __webpack_require__(33);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_103__components_tabs_tab__ = __webpack_require__(159);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_104__components_tabs_tab_button__ = __webpack_require__(158);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_tabs_tab_highlight__ = __webpack_require__(87);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_tabs_tabs__ = __webpack_require__(88);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_105__components_tabs_tab_highlight__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_106__components_tabs_tabs__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_107__components_thumbnail_thumbnail__ = __webpack_require__(160);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toast_toast_component__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_108__components_toast_toast_component__ = __webpack_require__(91);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_109__components_toast_toast_controller__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_110__components_toggle_toggle__ = __webpack_require__(163);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_111__components_toolbar_toolbar_footer__ = __webpack_require__(165);
@@ -108389,9 +108426,9 @@ function PanRecognizer_tsickle_Closure_declarations() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_115__components_toolbar_toolbar_title__ = __webpack_require__(168);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_116__components_toolbar_navbar__ = __webpack_require__(34);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_117__components_typography_typography__ = __webpack_require__(169);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_virtual_scroll_virtual_footer__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_header__ = __webpack_require__(91);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__components_virtual_scroll_virtual_item__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_118__components_virtual_scroll_virtual_footer__ = __webpack_require__(92);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_119__components_virtual_scroll_virtual_header__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_120__components_virtual_scroll_virtual_item__ = __webpack_require__(94);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_121__components_virtual_scroll_virtual_scroll__ = __webpack_require__(170);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return IonicModule; });
 /* unused harmony export IonicPageModule */
@@ -109214,7 +109251,7 @@ function IonicPage(config) {
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__util_util__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gestures_gesture_controller__ = __webpack_require__(7);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(93);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gestures_slide_edge_gesture__ = __webpack_require__(95);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return SwipeBackGesture; });
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = Object.setPrototypeOf ||
@@ -110727,7 +110764,7 @@ var __extends = (this && this.__extends) || function (d, b) {
     function __() { this.constructor = d; }
     d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
 };
-var Subject_1 = __webpack_require__(95);
+var Subject_1 = __webpack_require__(97);
 var Observable_1 = __webpack_require__(10);
 var Subscriber_1 = __webpack_require__(29);
 var Subscription_1 = __webpack_require__(37);
@@ -110985,7 +111022,7 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(10);
 var EmptyObservable_1 = __webpack_require__(188);
-var isArray_1 = __webpack_require__(98);
+var isArray_1 = __webpack_require__(100);
 var subscribeToResult_1 = __webpack_require__(192);
 var OuterSubscriber_1 = __webpack_require__(187);
 /**
@@ -111103,8 +111140,8 @@ var __extends = (this && this.__extends) || function (d, b) {
 };
 var Observable_1 = __webpack_require__(10);
 var tryCatch_1 = __webpack_require__(193);
-var isFunction_1 = __webpack_require__(99);
-var errorObject_1 = __webpack_require__(97);
+var isFunction_1 = __webpack_require__(101);
+var errorObject_1 = __webpack_require__(99);
 var Subscription_1 = __webpack_require__(37);
 var toString = Object.prototype.toString;
 function isNodeStyleEventEmitter(sourceObj) {
@@ -111907,7 +111944,7 @@ exports.MulticastOperator = MulticastOperator;
 "use strict";
 
 var multicast_1 = __webpack_require__(255);
-var Subject_1 = __webpack_require__(95);
+var Subject_1 = __webpack_require__(97);
 function shareSubjectFactory() {
     return new Subject_1.Subject();
 }
@@ -112053,7 +112090,7 @@ exports.isPromise = isPromise;
 "use strict";
 
 var Subscriber_1 = __webpack_require__(29);
-var rxSubscriber_1 = __webpack_require__(96);
+var rxSubscriber_1 = __webpack_require__(98);
 var Observer_1 = __webpack_require__(186);
 function toSubscriber(nextOrObserver, error, complete) {
     if (nextOrObserver) {

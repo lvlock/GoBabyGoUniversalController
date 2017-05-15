@@ -31,7 +31,7 @@ export class MyApp {
     });
 
     this.pages = [
-      { title: 'Setup', component: HomePage },
+      { title: 'Home', component: HomePage },
       { title: 'Connect to Car', component: ScanPage },
       { title: 'Car Controller', component: ControllerPage }
     ];

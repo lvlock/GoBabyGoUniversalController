@@ -11,7 +11,8 @@ import { ControllerPage } from '../controller/controller';
 export class ScanPage {
 
     private devices = [];
-    private isScanning: Boolean;
+    //private isScanning: Boolean;
+    private connected: Boolean;
     private device_id: string;
     private service: string;
     private characteristic: string;
@@ -21,7 +22,8 @@ export class ScanPage {
         public navCtrl: NavController,
         public navParams: NavParams
     ) {
-        this.isScanning = false;
+        //this.isScanning = false;
+        this.connected = false;
         this.device_id = null;
         this.service = null;
         this.characteristic = null;
@@ -31,21 +33,20 @@ export class ScanPage {
 
     ble_scan(event) {
         this.devices = [];
-        this.isScanning = true;
-        
+        document.getElementById("status").innerHTML = "Scanning..."
 		this.ble.startScanWithOptions([], { reportDuplicates: false }).subscribe(
             (device) => {
                 this.devices.push(device);
-                document.getElementById("state").innerHTML = "Started Scanning...";
-                document.getElementById("action").innerHTML = "startScan()";
-                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
-                document.getElementById("test").innerHTML = "test";
+                //document.getElementById("state").innerHTML = "Started Scanning...";
+                //document.getElementById("action").innerHTML = "startScan()";
+                //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                //document.getElementById("test").innerHTML = "test";
             },
             (error) => {
-                document.getElementById("state").innerHTML = "ERROR";
-                document.getElementById("action").innerHTML = "ERROR: startScan()";
-                document.getElementById("data").innerHTML = JSON.stringify(this.devices);
-                document.getElementById("test").innerHTML = "ERROR: " + error;
+                //document.getElementById("state").innerHTML = "ERROR";
+                //document.getElementById("action").innerHTML = "ERROR: startScan()";
+                //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                //document.getElementById("test").innerHTML = "ERROR: " + error;
             }
         );
         
@@ -68,26 +69,27 @@ export class ScanPage {
         */
 
         setTimeout(() => {
+            document.getElementById("status").innerHTML = "";
             this.ble.stopScan().then(
                 (success) => {
-                    document.getElementById("state").innerHTML = "Scan successful";
-                    document.getElementById("action").innerHTML = "stopScan()";
-                    document.getElementById("test").innerHTML = "SUCCESS: " + success;
-                    this.isScanning = false;
+                    //document.getElementById("state").innerHTML = "Scan successful";
+                    //document.getElementById("action").innerHTML = "stopScan()";
+                    //document.getElementById("test").innerHTML = "SUCCESS: " + success;
+                    //this.isScanning = false;
                     
                     for (var i = 0; i < this.devices.length; i++) {
-                        if (this.devices[i].name == null) {
+                        if (this.devices[i].name == undefined) {
                             this.devices.splice(i, 1);
-                            document.getElementById("data").innerHTML = JSON.stringify(this.devices);
+                            //document.getElementById("data").innerHTML = JSON.stringify(this.devices);
                         }
                     }
                     
                 },
                 (reason) => {
-                    document.getElementById("state").innerHTML = "ERROR: ble_scan.setTimeout()";
-                    document.getElementById("action").innerHTML = "stopScan()";
-                    document.getElementById("test").innerHTML = "ERROR: " + reason;
-                    this.isScanning = false;
+                    //document.getElementById("state").innerHTML = "ERROR: ble_scan.setTimeout()";
+                    //document.getElementById("action").innerHTML = "stopScan()";
+                    //document.getElementById("test").innerHTML = "ERROR: " + reason;
+                    //this.isScanning = false;
                 }
             );
         }, 3000);
@@ -96,20 +98,22 @@ export class ScanPage {
 
     connect(device) {
         
-        document.getElementById("state").innerHTML = "Attempting to connect... [" + device.id + "]";
+        document.getElementById("status").innerHTML = "Attempting to connect to " + device.name;
         this.ble.connect(device.id).subscribe(
             (success) => {
                 this.device_id = device.id;
                 this.get_IDs(success);
-                document.getElementById("state").innerHTML = "Connected";
-                document.getElementById("action").innerHTML = "connect(device)";
-                document.getElementById("test").innerHTML = "SUCCESS: " + success;
+                document.getElementById("status").innerHTML = "Connected!";
+                //document.getElementById("state").innerHTML = "Connected";
+                //document.getElementById("action").innerHTML = "connect(device)";
+                //document.getElementById("test").innerHTML = "SUCCESS: " + success;
                 
             },
             (reason) => {
-                document.getElementById("state").innerHTML = "ERROR";
-                document.getElementById("action").innerHTML = "connect(device)";
-                document.getElementById("test").innerHTML = "ERROR: " + reason;
+                document.getElementById("status").innerHTML = "Failed to connect!";
+                //document.getElementById("state").innerHTML = "ERROR";
+                //document.getElementById("action").innerHTML = "connect(device)";
+                //document.getElementById("test").innerHTML = "ERROR: " + reason;
             }
         );
         
@@ -137,7 +141,7 @@ export class ScanPage {
                 }
             });
         });
-        document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
+        //document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
     }
 
     /*
@@ -207,21 +211,23 @@ export class ScanPage {
 
 
     disconnect(event) {
-        document.getElementById("state").innerHTML = "Attempting to disconnect...";
+        document.getElementById("status").innerHTML = "Attempting to disconnect...";
         this.ble.disconnect(this.device_id).then(
             (success) => {
                 this.device_id = null;
                 this.service = null;
                 this.characteristic = null;
-                document.getElementById("state").innerHTML = "Disconnected";
-                document.getElementById("action").innerHTML = "disconnect()";
-                document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
-                document.getElementById("test").innerHTML = "SUCCESS: " + success;
+                document.getElementById("status").innerHTML = "Disconnected!";
+                //document.getElementById("state").innerHTML = "Disconnected";
+                //document.getElementById("action").innerHTML = "disconnect()";
+                //document.getElementById("data").innerHTML = "device_id: " + this.device_id + ", service: " + this.service + ", characteristic: " + this.characteristic;
+                //document.getElementById("test").innerHTML = "SUCCESS: " + success;
             },
             (reason) => {
-                document.getElementById("state").innerHTML = "ERROR";
-                document.getElementById("action").innerHTML = "disconnect()";
-                document.getElementById("test").innerHTML = "ERROR: " + reason;
+                document.getElementById("status").innerHTML = "Failed to disconnect!";
+                //document.getElementById("state").innerHTML = "ERROR";
+                //document.getElementById("action").innerHTML = "disconnect()";
+                //document.getElementById("test").innerHTML = "ERROR: " + reason;
             }
         );
     }
