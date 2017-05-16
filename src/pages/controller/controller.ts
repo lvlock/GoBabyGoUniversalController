@@ -42,13 +42,13 @@ export class ControllerPage {
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     } 
     else if (this.speed == 75) {
-      var pwmSpeed = 9;
+      var pwmSpeed = 75;
       var data = new Uint8Array(1);
       data[0] = pwmSpeed;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
     } 
     else if (this.speed == 100) {
-      var pwmSpeed = 9;
+      var pwmSpeed = 100;
       var data = new Uint8Array(1);
       data[0] = pwmSpeed;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
