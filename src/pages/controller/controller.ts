@@ -12,12 +12,14 @@ export class ControllerPage {
   private service: string;
   private characteristic: string;
   private speed: number;
+  private emergencyStopActivated: boolean;
 
   constructor(private ble: BLE, public navCtrl: NavController, public navParams: NavParams) {
       this.device_id = navParams.get("device_id");
       this.service = navParams.get("service");
       this.characteristic = navParams.get("characteristic");
       this.speed = 100;
+      this.emergencyStopActivated = false;
   }
 
 
@@ -58,10 +60,23 @@ export class ControllerPage {
 
   emergencyStop() {
     if (this.device_id != undefined) {
+      // change the button
+      var el = document.getElementById("stop");
+      if (el.textContent == "EMERGENCY STOP") {
+          el.textContent = "GO";
+          el.style.background = "green";
+          //console.log("Stop!");
+      } else {
+          el.textContent = "EMERGENCY STOP";
+          el.style.backgroundColor = "red";
+          //console.log("Go!");
+      }
+      // send data
       var data = new Uint8Array(1);
       data[0] = 10;
       this.ble.writeWithoutResponse(this.device_id, this.service, this.characteristic, data.buffer);
       this.brake();
+      this.emergencyStopActivated = true;
     }
   }
 
